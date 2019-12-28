@@ -24,19 +24,30 @@ const Homepage = () => (
     <style jsx>{`
       .cover {
         position: relative;
-        min-height: 600px;
+        min-height: 275px;
         background: transparent url(/static/cover.jpg) no-repeat center center;
         background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
       }
       .hello {
-        position: absolute;
-        top: 60px;
-        left: 60px;
+        display: inline-block;
+        position: relative;
+        top: 30px;
         background: #fff;
+        border-radius: 40px;
         padding: 30px;
+        padding-left: 80px;
+        padding-right: 80px;
+        opacity: 100%;
+        box-shadow: 
+        12px 12px 12px 0 rgba(0,0,0,0.5)
       }
       .hello h1 {
-        margin: 0 0 10px 0;
+        margin: 0 0 0px 0;
       }
       a.view-more {
         text-transform: uppercase;
@@ -49,8 +60,6 @@ const Homepage = () => (
       }
       @media (max-width: 480px) {
         .hello {
-          left: 30px;
-          right: 30px;
           font-size: 18px;
           padding: 20px;
         }

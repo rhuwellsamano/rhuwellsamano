@@ -25,7 +25,7 @@ const Nav = () => (
         display: flex;
       }
       .nav li a {
-        font-size: 22px;
+        font-size: 16px;
         color: #111;
         font-weight: 300;
         padding: 5px 2px;
@@ -34,7 +34,7 @@ const Nav = () => (
       }
       .nav li a:hover {
         padding-bottom: 3px;
-        border-bottom: 2px solid #ffe525;
+        border-bottom: 2px solid #FF6600;
       }
       @media (max-width: 600px) {
         .nav {

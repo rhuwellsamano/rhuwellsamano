@@ -27,10 +27,10 @@ const Layout = props => (
 
       body {
         margin: 0;
-        font-size: 20px;
-        line-height: 1.7;
+        font-size: 18px;
+        line-height: 1.8;
         font-weight: 400;
-        background: #fff;
+        background: #f1f1f1;
         color: #454545;
         font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', Avenir, 'Helvetica Neue',
           'Lucida Grande', sans-serif;
@@ -38,12 +38,12 @@ const Layout = props => (
       }
 
       a {
-        color: #1b789e;
+        color: #FF7519;
         text-decoration: none;
       }
 
       a:hover {
-        color: #166281;
+        color: #FF6600;
       }
 
       h1,
