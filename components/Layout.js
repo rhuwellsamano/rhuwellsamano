@@ -24,7 +24,42 @@ const Layout = props => (
       *::after {
         box-sizing: border-box;
       }
-
+      @font-face {
+        font-family: 'Varta';
+        src: url('/fonts/Varta.ttf'); 
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Raleway';
+        src: url('/fonts/Raleway.ttf'); 
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Larsseit';
+        src: url('/fonts/Larsseit.ttf'); 
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Galano';
+        src: url('/fonts/Galano.otf'); 
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Cocogoose';
+        src: url('/fonts/Cocogoose.ttf'); 
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Carre Noir';
+        src: url('/fonts/CarreNoir.otf'); 
+        font-style: normal;
+        font-display: swap;
+      }
       body {
         margin: 0;
         font-size: 18px;
@@ -32,8 +67,7 @@ const Layout = props => (
         font-weight: 400;
         background: #f1f1f1;
         color: #454545;
-        font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', 'Fira Sans', Avenir, 'Helvetica Neue',
-          'Lucida Grande', sans-serif;
+        font-family: 'Varta';
         text-rendering: optimizeLegibility;
       }
 
@@ -53,7 +87,7 @@ const Layout = props => (
       }
 
       h1 {
-        font-size: 42px;
+        font-size: 82px;
       }
 
       h2 {

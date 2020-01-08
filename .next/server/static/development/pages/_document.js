@@ -1502,22 +1502,82 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
         lineNumber: 13
       },
       __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/Varta.ttf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/Raleway.ttf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/Larsseit.ttf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/Galano.otf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/Cocogoose.ttf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/CarreNoir.otf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44
+      },
+      __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 51
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 52
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 53
       },
       __self: this
     })));

@@ -11,6 +11,42 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+          <link
+            rel="preload"
+            href="/fonts/Varta.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Raleway.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Larsseit.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Galano.otf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/Cocogoose.ttf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/CarreNoir.otf"
+            as="font"
+            crossOrigin=""
+          />
         </Head>
         <body>
           <Main />

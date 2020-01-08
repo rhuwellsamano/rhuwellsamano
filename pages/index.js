@@ -5,8 +5,9 @@ const Homepage = () => (
   <Layout title="Homepage">
     <div className="cover">
       <div className="hello">
-        <h1>Rhuwell Samano</h1>
-        <div>Full Stack Software Engineer</div>
+        <h1>CLEAR THINKING.</h1>
+        <h1>MADE SIMPLE.</h1>
+        <div>Rhuwell Samano - Full Stack Software Engineer</div>
         <Link href="/about">
           <a className="view-more">LEARN MORE</a>
         </Link>
@@ -24,29 +25,31 @@ const Homepage = () => (
     <style jsx>{`
       .cover {
         position: relative;
-        min-height: 275px;
+        min-height: 100vh;
         background: transparent url(/static/cover.jpg) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        text-align: center;
+        text-align: left;
       }
       .hello {
+        font-family: 'Galano';
+        color: #FFF;
         display: inline-block;
         position: relative;
         top: 30px;
-        background: #fff;
-        border-radius: 40px;
         padding: 30px;
         padding-left: 80px;
         padding-right: 80px;
         opacity: 100%;
-        box-shadow: 
-        12px 12px 12px 0 rgba(0,0,0,0.5)
+
       }
       .hello h1 {
+        font-family: 'Galano';
+        color: #FFF;
+        font-size: 82px;
         margin: 0 0 0px 0;
       }
       a.view-more {
@@ -60,6 +63,7 @@ const Homepage = () => (
       }
       @media (max-width: 480px) {
         .hello {
+          font-family: 'Galano Grotesque';
           font-size: 18px;
           padding: 20px;
         }
