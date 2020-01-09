@@ -59,6 +59,13 @@ const Layout = props => (
         src: url('/fonts/CarreNoir.otf'); 
         font-display: swap;
       }
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+      }
       body {
         margin: 0;
         font-size: 18px;
@@ -77,25 +84,9 @@ const Layout = props => (
       a:hover {
         color: #FF6600;
       }
-
-      h1,
-      h2,
-      h3 {
-        margin: 40px 0 30px;
-      }
-
-      h1 {
-        font-size: 82px;
-      }
-
-      h2 {
-        font-size: 36px;
-      }
-
       p {
         margin: 0 0 10px;
       }
-
       img {
         max-width: 100%;
       }
