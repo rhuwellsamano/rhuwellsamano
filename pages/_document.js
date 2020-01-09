@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
           />
           <link
             rel="preload"
-            href="/fonts/Raleway.ttf"
+            href="/fonts/Raleway Semibold.ttf"
             as="font"
             crossOrigin=""
           />

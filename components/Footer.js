@@ -4,11 +4,11 @@ const Footer = () => (
       <style jsx>{`
         .footer-wrapper {
           text-align: center;
-          margin-top: 80px;
-          padding: 80px 30px;
+          margin-top: 10px;
+          padding: 10px 30px;
         }
         .copyright {
-          margin-bottom: 20px;
+          margin-bottom: 10px;
         }
       `}</style>
     </div>

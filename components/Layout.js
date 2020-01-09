@@ -33,7 +33,7 @@ const Layout = props => (
       @font-face {
         font-family: 'Raleway';
         src: url('/fonts/Raleway.ttf'); 
-        font-style: normal;
+        font-style: semibold;
         font-display: swap;
       }
       @font-face {
@@ -55,16 +55,14 @@ const Layout = props => (
         font-display: swap;
       }
       @font-face {
-        font-family: 'Carre Noir';
+        font-family: 'CarreNoir';
         src: url('/fonts/CarreNoir.otf'); 
-        font-style: normal;
         font-display: swap;
       }
       body {
         margin: 0;
         font-size: 18px;
         line-height: 1.8;
-        font-weight: 400;
         background: #f1f1f1;
         color: #454545;
         font-family: 'Varta';

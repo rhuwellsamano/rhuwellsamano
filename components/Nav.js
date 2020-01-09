@@ -19,22 +19,25 @@ const Nav = () => (
     </li>
     <style jsx>{`
       .nav {
-        margin: 5px 0 0;
-        padding: 0;
+        font-family: 'Varta';
+        margin: 0px 0 0;
         list-style: none;
         display: flex;
+        background: #232A34;
       }
       .nav li a {
+        display: inline-block;
+        height: auto;
         font-size: 16px;
-        color: #111;
+        color: #FFF;
         font-weight: 300;
-        padding: 5px 2px;
-        margin: 0 10px;
-        text-decoration: none;
+        min-height: 65px;
+        padding: 20px 40px;
+        text-align: center;
       }
       .nav li a:hover {
         padding-bottom: 3px;
-        border-bottom: 2px solid #FF6600;
+        border-bottom: 2px solid #FFF;
       }
       @media (max-width: 600px) {
         .nav {

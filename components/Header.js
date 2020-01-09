@@ -7,7 +7,8 @@ const Header = () => (
     <Nav />
     <style jsx>{`
       .header-wrapper {
-        padding: 20px;
+        background: #232A34;
+        padding: 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;

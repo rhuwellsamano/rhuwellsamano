@@ -1514,7 +1514,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "preload",
-      href: "/fonts/Raleway.ttf",
+      href: "/fonts/Raleway Semibold.ttf",
       as: "font",
       crossOrigin: "",
       __source: {

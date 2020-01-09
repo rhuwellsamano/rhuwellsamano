@@ -10,6 +10,7 @@ const Logo = () => (
       .logo img {
         display: block;
         width: 40px;
+        margin-left: 20px;
       }
       @media (max-width: 600px) {
         .logo {
