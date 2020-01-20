@@ -6,7 +6,7 @@ const Homepage = () => (
     <div className="cover">
       <div className="hello">
         <h1>BRILLIANTLY DESIGNED AND BUILT.</h1>
-        <div className="subtitle">RHUWELL SAMANO - FULL STACK SOFTWARE ENGINEER</div>
+        <div className="subtitle">RHUWELL SAMANO • FULL STACK SOFTWARE ENGINEER</div>
         <Link href="/about">
           <a className="view-more">LEARN MORE</a>
         </Link>
@@ -56,7 +56,7 @@ const Homepage = () => (
       <div className="text-box-3">
         <div className="text-left">
           <h2>Skills.</h2>
-          <h3>GREAT DESIGN MATTERS.</h3>
+          <h3>THE PERFECT TRIFECTA.</h3>
           <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
           <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
           <div className="">
@@ -71,11 +71,69 @@ const Homepage = () => (
       </div>
     </div>
 
+    <div className="section-container">
+      <div className="pic-box-2">
+
+      </div>
+
+      <div className="text-box-4">
+      <div className="text-right">
+          <h2>Tech.</h2>
+          <h3>TOOLS OF THE TRADE.</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <div className="">
+            <Link href="/projects">
+              <a className="view-more">View All</a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="section-container">
+      <div className="text-box-5">
+        <div className="text-left">
+          <h2>Education.</h2>
+          <h3>KNOWLEDGE IS KEY.</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <div className="">
+            <Link href="/projects">
+              <a className="view-more">View All</a>
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="pic-box-3">
+      </div>
+    </div>
+
+    <div className="section-container">
+      <div className="pic-box-2">
+
+      </div>
+
+      <div className="text-box-6">
+      <div className="text-right">
+          <h2>Contact.</h2>
+          <h3>HOW CAN I HELP YOU?</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <div className="">
+            <Link href="/projects">
+              <a className="view-more">View All</a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <style jsx>{`
       .cover {
         position: relative;
-        min-height: 100vh;
+        min-height: 112vh;
         background: transparent url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/home_bg.jpg) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
@@ -105,7 +163,9 @@ const Homepage = () => (
         padding: 0px;
       }
       .subtitle {
-        font-family: "Raleway";
+        font-family: "HomepageBaukasten-Bold";
+        font-size: 16px;
+        margin-top: 10px;
         margin-left: 5px;
       }
       a.view-more {
@@ -173,7 +233,7 @@ const Homepage = () => (
         }
       }
       .section-container {
-        height: 100vh;
+        height: 112vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;
@@ -195,10 +255,13 @@ const Homepage = () => (
       }
       .text-box-2 {
         box-sizing: border-box;
-        background: #FFF; 
+        background: #f2efef; 
         float: right;
         width 60%;
         height: 100%;
+      }
+      .text-box-2 h2 {
+        color: #FFF;
       }
       .pic-box-2 {
         box-sizing: border-box;
@@ -210,7 +273,7 @@ const Homepage = () => (
       }
       .text-box-3 {
         box-sizing: border-box;
-        background: #FFF;
+        background: #1C212A;
         float: left;
         width: 60%;
         height: 100%;
@@ -221,6 +284,30 @@ const Homepage = () => (
         background-size: cover;
         float: right;
         width 40%;
+        height: 100%;
+      }
+      .text-box-4 {
+        box-sizing: border-box;
+        background: #FFF; 
+        float: right;
+        width 60%;
+        height: 100%;
+      }
+      .text-box-5 {
+        box-sizing: border-box;
+        background: #1C212A;
+        float: left;
+        width: 60%;
+        height: 100%;
+      }
+      .text-box-5 h2 {
+        font-size: 85px;
+      }
+      .text-box-6 {
+        box-sizing: border-box;
+        background: #FFF; 
+        float: right;
+        width 60%;
         height: 100%;
       }
     `}</style>

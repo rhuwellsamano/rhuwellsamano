@@ -31,8 +31,8 @@ const Layout = props => (
         font-display: swap;
       }
       @font-face {
-        font-family: 'Raleway';
-        src: url('/fonts/Raleway.ttf'); 
+        font-family: 'HomepageBaukasten-Bold';
+        src: url('/fonts/HomepageBaukasten-Bold.ttf'); 
         font-style: semibold;
         font-display: swap;
       }

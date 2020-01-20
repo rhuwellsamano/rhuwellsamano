@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
-
+  
   render() {
     return (
       <html>
@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
           />
           <link
             rel="preload"
-            href="/fonts/Raleway Semibold.ttf"
+            href="/fonts/Raleway.ttf"
             as="font"
             crossOrigin=""
           />
@@ -32,6 +32,12 @@ export default class MyDocument extends Document {
           <link
             rel="preload"
             href="/fonts/Galano.otf"
+            as="font"
+            crossOrigin=""
+          />
+          <link
+            rel="preload"
+            href="/fonts/HomepageBaukasten-Bold.ttf"
             as="font"
             crossOrigin=""
           />

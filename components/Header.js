@@ -7,6 +7,7 @@ const Header = () => (
     <Nav />
     <style jsx>{`
       .header-wrapper {
+        width: 100%;
         background: #232A34;
         padding: 0px;
         display: flex;

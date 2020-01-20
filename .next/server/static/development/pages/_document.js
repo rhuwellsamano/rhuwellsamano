@@ -1514,7 +1514,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "preload",
-      href: "/fonts/Raleway Semibold.ttf",
+      href: "/fonts/Raleway.ttf",
       as: "font",
       crossOrigin: "",
       __source: {
@@ -1544,7 +1544,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "preload",
-      href: "/fonts/Cocogoose.ttf",
+      href: "/fonts/HomepageBaukasten-Bold.ttf",
       as: "font",
       crossOrigin: "",
       __source: {
@@ -1554,7 +1554,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "preload",
-      href: "/fonts/CarreNoir.otf",
+      href: "/fonts/Cocogoose.ttf",
       as: "font",
       crossOrigin: "",
       __source: {
@@ -1562,22 +1562,32 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
         lineNumber: 44
       },
       __self: this
+    }), __jsx("link", {
+      rel: "preload",
+      href: "/fonts/CarreNoir.otf",
+      as: "font",
+      crossOrigin: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 57
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 58
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53
+        lineNumber: 59
       },
       __self: this
     })));

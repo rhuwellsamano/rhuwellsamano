@@ -3,13 +3,13 @@ import Link from 'next/link';
 const Logo = () => (
   <div className="logo">
     <Link href="/">
-    <a><img src="/static/testlogo.jpg" /></a>
+    <a><img src="/static/portfolio-logo-2.svg" /></a>
     </Link>
 
     <style jsx>{`
       .logo img {
         display: block;
-        width: 40px;
+        width: 220px;
         margin-left: 20px;
       }
       @media (max-width: 600px) {
