@@ -9,6 +9,7 @@ const Header = () => (
       .header-wrapper {
         width: 100%;
         background: #232A34;
+        opacity: 95%;
         padding: 0px;
         display: flex;
         justify-content: space-between;
