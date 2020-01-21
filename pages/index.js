@@ -85,7 +85,7 @@ const Homepage = () => (
         <div className="text-left">
           <h2>Skills.</h2>
           <h3>THE PERFECT TRIFECTA</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. </h4>
+
 
           <div className="skills-row">
             <div className="skills-image-container">
@@ -157,8 +157,40 @@ const Homepage = () => (
         <div className="text-left">
           <h2>Education.</h2>
           <h3>KNOWLEDGE IS KEY</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          
+          <div className="education-row">
+            <div className="education-image-container">
+              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+            </div>
+
+            <div className="education-text-container">
+              <h3>FLATIRON SCHOOL</h3>
+              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+            </div>
+          </div>
+
+          <div className="education-row">
+            <div className="education-image-container">
+              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+            </div>
+
+            <div className="education-text-container">
+              <h3>TEAMTREEHOUSE</h3>
+              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+            </div>
+          </div>
+
+          <div className="education-row">
+            <div className="education-image-container">
+              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+            </div>
+
+            <div className="education-text-container">
+              <h3>COLLEGE OF STATEN ISLAND</h3>
+              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+            </div>
+          </div>
+
           <div className="">
             <Link href="/projects">
               <a className="view-more">View All</a>
@@ -361,7 +393,7 @@ const Homepage = () => (
       .skills-row {
         display: flex;
         width: 100%;
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 20px;
       }
       .skills-image-container {
@@ -399,6 +431,31 @@ const Homepage = () => (
       }
       .text-box-5 h2 {
         font-size: 85px;
+      }
+      .education-row {
+        display: flex;
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+      }
+      .education-image-container {
+        width: 20%;
+        height: 20%;
+        display: flex;
+        margin-right: 5%;
+      }
+      .education-text-container {
+        line-height: 1.2;
+        width: 75%;
+        display: inline;
+      }
+      .education-text-container h3 {
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+      .education-text-container h5 {
+        padding-top: 0px;
+        margin-top: 0px;
       }
       .text-box-6 {
         box-sizing: border-box;
