@@ -25,6 +25,13 @@ const Layout = props => (
         box-sizing: border-box;
       }
       @font-face {
+        font-family: 'devicons';
+        src: url("../fonts/devicons.eot?xqxft6");
+        src: url("../fonts/devicons.eot?#iefixxqxft6") format("embedded-opentype"), url("../fonts/devicons.woff?xqxft6") format("woff"), url("../fonts/devicons.ttf?xqxft6") format("truetype"), url("../fonts/devicons.svg?xqxft6#devicons") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }      
+      @font-face {
         font-family: 'Varta';
         src: url('/fonts/Varta.ttf'); 
         font-style: normal;

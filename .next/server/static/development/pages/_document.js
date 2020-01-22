@@ -1503,13 +1503,21 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       },
       __self: this
     }), __jsx("link", {
+      href: "//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css",
+      rel: "stylesheet",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), __jsx("link", {
       rel: "preload",
       href: "/fonts/Varta.ttf",
       as: "font",
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       },
       __self: this
     }), __jsx("link", {
@@ -1519,7 +1527,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 21
       },
       __self: this
     }), __jsx("link", {
@@ -1529,7 +1537,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 27
       },
       __self: this
     }), __jsx("link", {
@@ -1539,7 +1547,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 33
       },
       __self: this
     }), __jsx("link", {
@@ -1549,7 +1557,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38
+        lineNumber: 39
       },
       __self: this
     }), __jsx("link", {
@@ -1559,7 +1567,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 45
       },
       __self: this
     }), __jsx("link", {
@@ -1569,25 +1577,25 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       crossOrigin: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 51
       },
       __self: this
     })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57
+        lineNumber: 58
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58
+        lineNumber: 59
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59
+        lineNumber: 60
       },
       __self: this
     })));

@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+          <link href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css' rel='stylesheet' />
           <link
             rel="preload"
             href="/fonts/Varta.ttf"

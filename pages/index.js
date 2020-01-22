@@ -141,8 +141,65 @@ const Homepage = () => (
       <div className="text-right">
           <h2>Tech.</h2>
           <h3>TOOLS OF THE TRADE</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <div className="tech-rows-container">
+            <div className="tech-row">
+              <div className="tech-image-container">
+                <span className="devicons devicons-react" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-python" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-django" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-ruby_on_rails" />
+              </div>
+            </div>
+
+            <div className="tech-row">
+              <div className="tech-image-container">
+                <span className="devicons devicons-javascript_badge" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-nodejs" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-html5" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-css3" />
+              </div>
+            </div>
+
+            <div className="tech-row">
+              <div className="tech-image-container">
+                <span className="devicons devicons-npm" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-swift" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-photoshop" />
+              </div>
+
+              <div className="tech-image-container">
+                <span className="devicons devicons-illustrator" />
+              </div>
+            </div>
+          </div>
+
+          <h5>GitHub Contributions - Updated January 21st, 2020</h5>
+          <img src="/static/github-calendar.png" alt=""></img>
+
           <div className="">
             <Link href="/projects">
               <a className="view-more">View All</a>
@@ -421,6 +478,27 @@ const Homepage = () => (
         float: right;
         width 60%;
         height: 100%;
+      }
+      .tech-rows-container {
+        margin-top: 30px;
+      }
+      .tech-row {
+        display: flex;
+      }
+      .tech-image-container {
+        width: 30%;
+        padding: 5px;
+      }
+      .tech-image-container span {
+        font-size: 100px;
+        -o-transition:.3s;
+        -ms-transition:.3s;
+        -moz-transition:.3s;
+        -webkit-transition:.3s;
+        transition:.3s;
+      }
+      .tech-image-container span:hover {
+        color: #F5AD25;
       }
       .text-box-5 {
         box-sizing: border-box;
