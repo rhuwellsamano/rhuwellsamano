@@ -49,11 +49,11 @@ const Homepage = () => (
             <div className="projects-row-1">
 
               <div className="project-image-container">
-                <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
               </div>
 
               <div className="project-image-container">
-                <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
               </div>
 
             </div>
@@ -61,11 +61,11 @@ const Homepage = () => (
             <div className="projects-row-1">
 
               <div className="project-image-container">
-                <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
               </div>
 
               <div className="project-image-container">
-                <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
               </div>
 
             </div>
@@ -89,7 +89,7 @@ const Homepage = () => (
 
           <div className="skills-row">
             <div className="skills-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/software-engineer.png" alt=""></img>
             </div>
 
             <div className="skills-text-container">
@@ -100,7 +100,7 @@ const Homepage = () => (
 
           <div className="skills-row">
             <div className="skills-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/digital-marketing.png" alt=""></img>
             </div>
 
             <div className="skills-text-container">
@@ -111,7 +111,7 @@ const Homepage = () => (
 
           <div className="skills-row">
             <div className="skills-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/designer.png" alt=""></img>
             </div>
 
             <div className="skills-text-container">
@@ -217,34 +217,37 @@ const Homepage = () => (
           
           <div className="education-row">
             <div className="education-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/flatironschool.png" alt=""></img>
             </div>
 
             <div className="education-text-container">
               <h3>FLATIRON SCHOOL</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h4>The "Ivy League of coding bootcamps"</h4>
+              <h5>Full Stack Software Engineering | React, Javascript, Ruby on Rails</h5>
             </div>
           </div>
 
           <div className="education-row">
             <div className="education-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/teamtreehouse.png" alt=""></img>
             </div>
 
             <div className="education-text-container">
               <h3>TEAMTREEHOUSE</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h4>A top-tier online school for learning code</h4>
+              <h5>Full Stack Javascript Development & Full Stack Web Development</h5>
             </div>
           </div>
 
           <div className="education-row">
             <div className="education-image-container">
-              <img className="project-image" src="https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/portfolio7-1200-1200.jpg" alt=""></img>
+              <img className="project-image" src="/static/csi.png" alt=""></img>
             </div>
 
             <div className="education-text-container">
               <h3>COLLEGE OF STATEN ISLAND</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h4>The largest campus in all of New York City</h4>
+              <h5>BS: Business Marketing | Learned Design skills on the side</h5>
             </div>
           </div>
 
@@ -528,6 +531,10 @@ const Homepage = () => (
         display: inline;
       }
       .education-text-container h3 {
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+      .education-text-container h4 {
         padding-top: 0px;
         margin-top: 0px;
       }
