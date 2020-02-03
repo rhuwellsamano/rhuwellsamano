@@ -53,7 +53,7 @@ const Homepage = () => (
               </div>
 
               <div className="project-image-container">
-                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
+                <img className="project-image" src="/static/sick-fits-mockup.png" alt=""></img>
               </div>
 
             </div>
@@ -61,11 +61,11 @@ const Homepage = () => (
             <div className="projects-row-1">
 
               <div className="project-image-container">
-                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
+                <img className="project-image" src="/static/majin-sushi-mockup.png" alt=""></img>
               </div>
 
               <div className="project-image-container">
-                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
+                <img className="project-image" src="/static/linkedup-mockup.png" alt=""></img>
               </div>
 
             </div>
@@ -133,7 +133,7 @@ const Homepage = () => (
     </div>
 
     <div className="section-container">
-      <div className="pic-box-2">
+      <div className="pic-box-4">
 
       </div>
 
@@ -259,12 +259,12 @@ const Homepage = () => (
         </div>
       </div>
 
-      <div className="pic-box-3">
+      <div className="pic-box-5">
       </div>
     </div>
 
     <div className="section-container">
-      <div className="pic-box-2">
+      <div className="pic-box-6">
 
       </div>
 
@@ -450,6 +450,14 @@ const Homepage = () => (
         width 40%;
         height: 100%;
       }
+      .pic-box-4 {
+        box-sizing: border-box;
+        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/skill_bg.jpg) no-repeat center center;
+        background-size: cover;
+        float: left;
+        width: 40%;
+        height: 100%;
+      }
       .skills-row {
         display: flex;
         width: 100%;
@@ -503,6 +511,14 @@ const Homepage = () => (
       .tech-image-container span:hover {
         color: #F5AD25;
       }
+      .pic-box-5 {
+        box-sizing: border-box;
+        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/testimonial_bg.jpg) no-repeat center center;
+        background-size: cover;
+        float: left;
+        width: 40%;
+        height: 100%;
+      }
       .text-box-5 {
         box-sizing: border-box;
         background: #1C212A;
@@ -541,6 +557,14 @@ const Homepage = () => (
       .education-text-container h5 {
         padding-top: 0px;
         margin-top: 0px;
+      }
+      .pic-box-6 {
+        box-sizing: border-box;
+        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/contact_bg.jpg) no-repeat center center;
+        background-size: cover;
+        float: left;
+        width: 40%;
+        height: 100%;
       }
       .text-box-6 {
         box-sizing: border-box;
