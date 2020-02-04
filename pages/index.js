@@ -20,14 +20,14 @@ const Homepage = () => (
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>"What you leave behind is not what is engraved in stone monuments, but what is woven into the lives of others." -- Pericles</h4>
           
-          <h5>My name is Rhuwell Samano and I'm a Full Stack Software Engineer. I specialize in React and mainly code in JavaScript. I have a particularly rare combination of skills that allow me to have valuable insight into many, if not all, types of digital projects. </h5>
+          <h5>My name is Rhuwell Samano and I'm a Full Stack Software Engineer. I specialize in React and mainly code in Javascript. I have a particularly rare combination of skills that allow me to have valuable insight into many, if not all, types of digital projects. </h5>
           <h5>
-          By using Software Engineering, Digital Marketing and Digital Design, I'm able to understand all of the moving parts of a project and connect them together into a beautifully-crafted system that fuels and grows powerful brands. </h5>
+          By using Software Engineering, Digital Marketing and Web & App Design, I'm able to understand all of the moving parts of a project and connect them together into a beautiful handcrafted system that fuels and grows powerful brands. </h5>
 
           <h5>I'm passionate about creating world-class experiences for various communities using websites, applications, and digital media. The most important person I care about and create for is the end-user. I thoroughly enjoy working with others towards achieving that goal, no matter the project.</h5>
 
           <div className="">
-            <Link href="/projects">
+            <Link href="/about">
               <a className="view-more">Read More</a>
             </Link>
           </div>
@@ -45,7 +45,7 @@ const Homepage = () => (
 
       <div className="text-box-2">
       <div className="text-right">
-          <h2>Work.</h2>
+          <h2 className="work-h2">Work.</h2>
           <h3>RECENT PROJECTS</h3>
           <div className="projects-row-container">
             <div className="projects-row-1">
@@ -124,8 +124,8 @@ const Homepage = () => (
           </div>
 
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">View All</a>
+            <Link href="/about">
+              <a className="view-more">Read More</a>
             </Link>
           </div>
         </div>
@@ -204,8 +204,8 @@ const Homepage = () => (
           <img src="/static/github-calendar.png" alt=""></img>
 
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">View All</a>
+            <Link href="/about">
+              <a className="view-more">Read More</a>
             </Link>
           </div>
         </div>
@@ -225,7 +225,7 @@ const Homepage = () => (
 
             <div className="education-text-container">
               <h3>FLATIRON SCHOOL</h3>
-              <h4>The "Ivy League of coding bootcamps"</h4>
+              <h4>Known as the "Ivy League of coding bootcamps"</h4>
               <h5>Full Stack Software Engineering | React, Javascript, Ruby on Rails</h5>
             </div>
           </div>
@@ -249,16 +249,17 @@ const Homepage = () => (
 
             <div className="education-text-container">
               <h3>COLLEGE OF STATEN ISLAND</h3>
-              <h4>The largest campus in all of New York City</h4>
-              <h5>BS: Business Marketing | Learned Design skills on the side</h5>
+              <h4>The single, largest campus in all of New York City</h4>
+              <h5>BS: Business Marketing (2012-2016)</h5>
             </div>
           </div>
 
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">View All</a>
+            <Link href="/about">
+              <a className="view-more">Read More</a>
             </Link>
           </div>
+
         </div>
       </div>
 
@@ -275,13 +276,14 @@ const Homepage = () => (
       <div className="text-right">
           <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
-          <div className="">
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
-          </div>
+
+          <h5>I'm currently available for new opportunities as a Software Engineer, so if you would like to get in touch with me, I'm always checking my e-mails!</h5>
+
+          <h3>rhuwell.samano@gmail.com</h3>
+          <h5>Thank you!</h5>
+
+
+
         </div>
       </div>
     </div>
@@ -356,12 +358,28 @@ const Homepage = () => (
         margin-bottom: 10px;
         line-height: 0.3;
       }
+      .work-h2 {
+        font-family: 'Galano';
+        font-size: 120px;
+        color: #F2F2F2;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
       h3 {
         font-family: 'Galano';
         font-size: 30px;
         color: #343D4F;
         padding: 0px 0;
         margin-bottom: 0px;
+      }
+      .contact-h5 {
+        font-family: 'Galano';
+        font-size: 30px;
+        color: #343D4F;
+        padding: 0px 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
       }
       h4 {
         font-family: 'CarreNoir';
