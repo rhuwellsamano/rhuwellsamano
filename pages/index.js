@@ -18,15 +18,17 @@ const Homepage = () => (
         <div className="text-left">
           <h2>About.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
-          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
-          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
+          <h4>"What you leave behind is not what is engraved in stone monuments, but what is woven into the lives of others." -- Pericles</h4>
+          
+          <h5>My name is Rhuwell Samano and I'm a Full Stack Software Engineer. I specialize in React and mainly code in JavaScript. I have a particularly rare combination of skills that allow me to have valuable insight into many, if not all, types of digital projects. </h5>
           <h5>
-          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
-          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
+          By using Software Engineering, Digital Marketing and Digital Design, I'm able to understand all of the moving parts of a project and connect them together into a beautifully-crafted system that fuels and grows powerful brands. </h5>
+
+          <h5>I'm passionate about creating world-class experiences for various communities using websites, applications, and digital media. The most important person I care about and create for is the end-user. I thoroughly enjoy working with others towards achieving that goal, no matter the project.</h5>
 
           <div className="">
             <Link href="/projects">
-              <a className="view-more">View All</a>
+              <a className="view-more">Read More</a>
             </Link>
           </div>
         </div>
@@ -94,7 +96,8 @@ const Homepage = () => (
 
             <div className="skills-text-container">
               <h3>SOFTWARE ENGINEERING</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h5>From the front-end to the back-end, I'm able to dive into all sorts of projects and work with what's there - or start from scratch.
+              </h5>
             </div>
           </div>
 
@@ -105,7 +108,7 @@ const Homepage = () => (
 
             <div className="skills-text-container">
               <h3>DIGITAL MARKETING</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h5>By using modern digital tools, ancient human psychology, and classic storytelling - I can grow leads and increase the bottom-line.</h5>
             </div>
           </div>
 
@@ -116,7 +119,7 @@ const Homepage = () => (
 
             <div className="skills-text-container">
               <h3>WEB & APP DESIGN</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
+              <h5>From a sketch on a napkin or a whiteboard, I'm able to design and craft ideas into mock-ups using best practices in the industry.</h5>
             </div>
           </div>
 
