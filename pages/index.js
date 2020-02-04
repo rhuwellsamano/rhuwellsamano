@@ -287,10 +287,10 @@ const Homepage = () => (
       .cover {
         position: relative;
         min-height: 112vh;
-        background: transparent url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/home_bg.jpg) no-repeat center center;
+        background: transparent url(/static/pro-cover.JPG) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
-        background-position: center;
+        background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
         text-align: left;
@@ -400,8 +400,9 @@ const Homepage = () => (
       }
       .pic-box {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/avada-resume-about.jpg) no-repeat center center;
+        background: url(/static/pro-about-me.JPG) no-repeat center right;
         background-size: cover;
+        background-position: top right 20%;
         float: right;
         width 40%;
         height: 100%;
@@ -444,16 +445,18 @@ const Homepage = () => (
       }
       .pic-box-3 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/experience_bg.jpg) no-repeat center center;
+        background: url(/static/pro-skills.JPG) no-repeat center right;
         background-size: cover;
+        background-position: top right 35%;
         float: right;
         width 40%;
         height: 100%;
       }
       .pic-box-4 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/skill_bg.jpg) no-repeat center center;
+        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/skill_bg.jpg) no-repeat center right;
         background-size: cover;
+        background-position: top right 25%;
         float: left;
         width: 40%;
         height: 100%;
@@ -513,8 +516,9 @@ const Homepage = () => (
       }
       .pic-box-5 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/testimonial_bg.jpg) no-repeat center center;
+        background: url(/static/pro-education.JPG) no-repeat center right;
         background-size: cover;
+        background-position: bottom right 20%;
         float: left;
         width: 40%;
         height: 100%;
@@ -560,8 +564,9 @@ const Homepage = () => (
       }
       .pic-box-6 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/contact_bg.jpg) no-repeat center center;
+        background: url(/static/pro-contact-me.JPG) no-repeat center right;
         background-size: cover;
+        background-position: top right 25%;
         float: left;
         width: 40%;
         height: 100%;
