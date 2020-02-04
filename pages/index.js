@@ -419,8 +419,9 @@ const Homepage = () => (
       }
       .pic-box-2 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/works_bg_900x1600.jpg) no-repeat center center;
+        background: url(/static/pro-work.JPG) no-repeat center right;
         background-size: cover;
+        background-position: top right 20%;
         float: left;
         width: 40%;
         height: 100%;
@@ -454,7 +455,7 @@ const Homepage = () => (
       }
       .pic-box-4 {
         box-sizing: border-box;
-        background: url(https://avada.theme-fusion.com/resume/wp-content/uploads/sites/66/2016/07/skill_bg.jpg) no-repeat center right;
+        background: url(/static/pro-tech.JPG) no-repeat center right;
         background-size: cover;
         background-position: top right 25%;
         float: left;
