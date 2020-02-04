@@ -277,10 +277,14 @@ const Homepage = () => (
           <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>I'm currently available for new opportunities as a Software Engineer, so if you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>What challenges are you facing?
+          Do you think I would be able to help your team?</h5>
+
+          <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
 
           <h3>rhuwell.samano@gmail.com</h3>
-          <h5>Thank you!</h5>
+          <h2 className="contact-h2">Thank you!</h2>
 
 
 
@@ -339,9 +343,6 @@ const Homepage = () => (
         color: #FFF;
         border-radius: 5px;
       }
-      a.view-more:hover {
-        color: #FECE00;
-      }
       .text-left {
         text-align: left;
         padding: 20px 130px;
@@ -361,6 +362,14 @@ const Homepage = () => (
       .work-h2 {
         font-family: 'Galano';
         font-size: 120px;
+        color: #F2F2F2;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
+      .contact-h2 {
+        font-family: 'Galano';
+        font-size: 80px;
         color: #F2F2F2;
         padding-top: 0px;
         margin-bottom: 10px;
