@@ -71,6 +71,7 @@ const Layout = props => (
         height: 100%;
         margin: 0px;
         padding: 0px;
+        scroll-behavior: smooth;
         overflow-x: hidden; 
       }
       body {
@@ -96,6 +97,13 @@ const Layout = props => (
       }
       img {
         max-width: 100%;
+      }
+      ul {
+        margin-left: 0px;
+        padding-left: 5px;
+      }
+      li {
+        text-align: left;
       }
 
       /* Layout */

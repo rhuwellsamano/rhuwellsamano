@@ -6,15 +6,13 @@ const About = () => (
     <div className="cover">
       <div className="hello">
         <h1>ABOUT ME.</h1>
-        <div className="subtitle">IT'S QUITE THE STORY! TAKE A READ.</div>
-        <Link href="/about">
-          <a className="view-more">LEARN MORE</a>
-        </Link>
+        <div className="subtitle">WANT TO KNOW MY STORY, SO FAR?</div>
+          <a href="#jump-to-top" className="view-more">LEARN MORE</a>
       </div>
     </div>
 
     <div className="section-container">
-      <div className="text-box">
+      <div id="jump-to-top" className="text-box">
         <div className="text-left">
           <h2>About.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>

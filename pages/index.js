@@ -7,14 +7,12 @@ const Homepage = () => (
       <div className="hello">
         <h1>BRILLIANTLY DESIGNED AND BUILT.</h1>
         <div className="subtitle">RHUWELL SAMANO • FULL STACK SOFTWARE ENGINEER</div>
-        <Link href="/about">
-          <a className="view-more">LEARN MORE</a>
-        </Link>
+          <a href="#jump-to-top" className="view-more">LEARN MORE</a>
       </div>
     </div>
 
     <div className="section-container">
-      <div className="text-box">
+      <div id="jump-to-top" className="text-box">
         <div className="text-left">
           <h2>About.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>

@@ -6,34 +6,30 @@ const Projects = () => (
     <div className="cover">
       <div className="hello">
         <h1>PROJECTS.</h1>
-        <div className="subtitle">SOFTWARE DEVELOPMENT • UI/UX • WEB DESIGN</div>
-        <Link href="/about">
-          <a className="view-more">LEARN MORE</a>
-        </Link>
+        <div className="subtitle">SOFTWARE DEVELOPMENT • UI/UX • WEB & APP DESIGN</div>
+          <a href="#jump-to-top" className="view-more">LEARN MORE</a>
       </div>
     </div>
 
     <div className="section-container">
-      <div className="text-box">
+      <div id="jump-to-top" className="text-box">
         <div className="text-left">
           <h2 className="blink-h2">Blink Health.</h2>
-          <h3>React • Python • Typescript</h3>
-          <h4>"Blink Health is the new way for all Americans to save on their prescriptions. With our proprietary technology, everyone now has access to one, low negotiated price on over 15,000 medications. Simply pay online before you pick up at your pharmacy to save."</h4>
-          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
-          <h5>
-          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
-          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
+          <h3>React • Python • TypeScript</h3>
+
+          <h4>"Blink Health is the new way for all Americans to save on their prescriptions. With our proprietary technology, everyone now has access to one, low negotiated price on over 15,000 medications."</h4>
+
+          <h5>With an exponentially growing customer-base of well over 1 million people, it was vital to innovate and design solutions to maintain the product's stability as it continued to evolve and become a reliable household brand.</h5>
+
+          <ul>
+            <h3>What I Did:</h3>
+            <li><h5 className="features-h5">Built reusable components in React using object-oriented/functional programming to improve performance on the website</h5></li>
+              <li><h5 className="features-h5">Collaborated with the UX/front-end development team in an Agile/TDD environment to consistently complete deliverables</h5></li>
+              <li><h5 className="features-h5">Created A/B test experiments to collect usage data to increase user sign-up conversion and retention rates</h5></li>
+          </ul>
 
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">GitHub Repo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">Demo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
+            <a href="http://www.blinkhealth.com" className="view-more">Website</a>
           </div>
         </div>
       </div>
@@ -50,20 +46,25 @@ const Projects = () => (
       <div className="text-box-2">
       <div className="text-right">
           <h2>Sick Fits.</h2>
-          <h3>React • Node • GraphQL</h3>
-          <h4>An e-commerce website for apparel and accessories.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <h3>React • Next • GraphQL • Prisma • Jest</h3>
+          <h4>An e-commerce app for buying and selling apparel, shoes, and accessories.</h4>
+
+          <h5>In this highly digital age, it's become almost necessary to be able to buy and sell products outside of the classic brick-and-mortar storefront. By using modern technologies like React and GraphQL, it's completely possible to build a fast and reliable e-commerce platform for your brand to grow faster than ever!</h5>
+
+          <ul>
+            <h3>What I Did:</h3>
+            <li><h5 className="features-h5">Built with React, Next and Apollo GraphQL to utilize reusable components, have ultrafast page loading speeds, and to make one single call to access data in any component.</h5></li>
+              <li><h5 className="features-h5">Incorporated Jest and Enzyme to allow for thorough unit testing to ensure app stability.</h5></li>
+              <li><h5 className="features-h5">Added Stripe API in order to add a dependable payment method for users</h5></li>
+              <li><h5 className="features-h5">Utilized Cloudinary to handle resizing of uploaded product photos before they are saved to the backend</h5></li>
+          </ul>
+
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">GitHub Repo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">Demo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
+            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/frontend" className="view-more">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/backend" className="view-more">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=ytATWMdlS_w" className="view-more">Demo</a>
           </div>
+
         </div>
       </div>
     </div>
@@ -74,22 +75,20 @@ const Projects = () => (
           <h2>Portfolio.</h2>
           <h3>React • Next • JavaScript</h3>
           <h4>Made from scratch, this portfolio project is worth mentioning.</h4>
-          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
-          <h5>
-          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
-          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
+
+          <h5>Having a portfolio website can provide more details and context to your story than you can fit on your resume. By using React and Next, I'm able to build fast and focus on the User Interface and User Experience. I also used a consistent style guide to maintain beautiful eye-catching typography and a refreshing cool-toned color theme. </h5>
+
+          <ul>
+            <h3>What I Did:</h3>
+            <li><h5 className="features-h5">Built with React and Next to get up-and-running relatively fast</h5></li>
+              <li><h5 className="features-h5">Gathered layout and design inspiration on Dribbble and sketched out a wireframe of the website before I started developing</h5></li>
+              <li><h5 className="features-h5">Ran a couple of UI/UX user tests along the way to make sure every aspect of the website was received well</h5></li>
+          </ul>
 
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">GitHub Repo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">Demo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
+            <a href="https://github.com/rhuwellsamano/rhuwellsamano" className="view-more">GitHub Repo</a>
           </div>
+
         </div>
       </div>
 
@@ -104,21 +103,26 @@ const Projects = () => (
 
       <div className="text-box-4">
       <div className="text-right">
-          <h2>LinkedUp.</h2>
-          <h3>React • Ruby on Rails • Web Sockets</h3>
-          <h4>A self-destructing chat app that mimics real-life interactions.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
+          <h2>LinkedUP.</h2>
+          <h3>React • Ruby on Rails • WebSockets</h3>
+          <h4>A self-destructing chat app that aims to mimic real-life interactions.</h4>
+
+          <h5>Inspired by real-life occurences of meeting new people, I wanted to create a time-based chat app that allowed users to meet other professionals based off their LinkedIn profiles. Perfect for people who want to expand their networks without the hassle! </h5>
+
+          <ul>
+            <h3>What I Did:</h3>
+            <li><h5 className="features-h5">Built with React for the front-end, Ruby on Rails for the back-end and PostgreSQL for Database Management</h5></li>
+              <li><h5 className="features-h5">Implemented ActionCable (WebSockets) to provide instant and live chat updates to all users in the Chatroom</h5></li>
+              <li><h5 className="features-h5">Added User Authorization/Login functionality by using JSON Web Tokens and Encryption/Decryption algorithms</h5></li>
+              <li><h5 className="features-h5">Enabled full CRUD functionality for User Profiles including a “Like” feature as well as updating user details</h5></li>
+          </ul>
+
           <div className="">
-            <Link href="/projects">
-              <a className="view-more">GitHub Repo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">Demo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
+            <a href="https://github.com/rhuwellsamano/linkedup-frontend" className="view-more">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/linkedup-backend" className="view-more">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=welfAhsiNm4" className="view-more">Demo</a>
           </div>
+
         </div>
       </div>
     </div>
@@ -129,21 +133,21 @@ const Projects = () => (
           <h2>Majin Sushi.</h2>
           <h3>JavaScript • Ruby on Rails</h3>
           <h4>An interactive restaurant game where you create and eat sushi.</h4>
-          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
-          <h5>
-          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
-          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
+
+          <h5>Still my favorite app to have worked on - it's a JavaScript game with a bunch of adorable sushi characters, animations and sounds. You have in-game currency that you use to purchase sushi to eat as you get hungry.. and you will get hungry. I'm planning on working on a sequel soon - Majin Sushi 2 , coming soon!</h5>
+
+          <ul>
+            <h3>What I Did:</h3>
+            <li><h5 className="features-h5">Built with Javascript for the front-end, Ruby on Rails for the back-end and PostgreSQL for Database Management</h5></li>
+              <li><h5 className="features-h5">Used CSS Animations, Music, and Sounds to create an immersive and enjoyable experience for users</h5></li>
+              <li><h5 className="features-h5">Added a Hunger Meter feature that decreased over time and aggressively alerted the user if it fell below a certain number</h5></li>
+              <li><h5 className="features-h5">Utilized full CRUD functionality to allow users to create, edit, and destroy in-game Sushis</h5></li>
+          </ul>
 
           <div className="">
-          <Link href="/projects">
-              <a className="view-more">GitHub Repo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">Demo</a>
-            </Link>
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
+            <a href="https://github.com/rhuwellsamano/majin-sushi-frontend" className="view-more">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/majin-sushi-backend" className="view-more">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=klHWjDFI4IM" className="view-more">Demo</a>
           </div>
         </div>
       </div>
@@ -159,15 +163,17 @@ const Projects = () => (
 
       <div className="text-box-6">
       <div className="text-right">
-          <h2>Contact.</h2>
+      <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
-          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
-          <div className="">
-            <Link href="/projects">
-              <a className="view-more">View All</a>
-            </Link>
-          </div>
+
+          <h5>What challenges are you facing?
+          Do you think I would be able to help your team?</h5>
+
+          <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+
+          <h3>rhuwell.samano@gmail.com</h3>
+          <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
     </div>
@@ -247,6 +253,14 @@ const Projects = () => (
         margin-bottom: 10px;
         line-height: 0.3;
       }
+      .contact-h2 {
+        font-family: 'Galano';
+        font-size: 80px;
+        color: #F2F2F2;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
       h3 {
         font-family: 'Galano';
         font-size: 30px;
@@ -268,6 +282,15 @@ const Projects = () => (
         line-height: 2.2;
         padding: 0px 0;
         margin-bottom: 0px;
+      }
+      .features-h5 {
+        font-family: 'Varta';
+        font-size: 16px;
+        color: #a6b1b9;
+        line-height: 2.2;
+        padding: 0px 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
       }
       @media (max-width: 480px) {
         .hello {
