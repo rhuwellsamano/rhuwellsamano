@@ -16,7 +16,7 @@ const Projects = () => (
     <div className="section-container">
       <div className="text-box">
         <div className="text-left">
-          <h2>About.</h2>
+          <h2 className="blink-h2">Blink Health.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
@@ -43,34 +43,10 @@ const Projects = () => (
 
       <div className="text-box-2">
       <div className="text-right">
-          <h2>Work.</h2>
-          <h3>RECENT PROJECTS</h3>
-          <div className="projects-row-container">
-            <div className="projects-row-1">
-
-              <div className="project-image-container">
-                <img className="project-image" src="/static/blink-health-mockup.png" alt=""></img>
-              </div>
-
-              <div className="project-image-container">
-                <img className="project-image" src="/static/sick-fits-mockup.png" alt=""></img>
-              </div>
-
-            </div>
-
-            <div className="projects-row-1">
-
-              <div className="project-image-container">
-                <img className="project-image" src="/static/majin-sushi-mockup.png" alt=""></img>
-              </div>
-
-              <div className="project-image-container">
-                <img className="project-image" src="/static/linkedup-mockup.png" alt=""></img>
-              </div>
-
-            </div>
-
-          </div>
+          <h2>Sick Fits.</h2>
+          <h3>HOW CAN I HELP YOU?</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
           <div className="">
             <Link href="/projects">
               <a className="view-more">View All</a>
@@ -83,42 +59,13 @@ const Projects = () => (
     <div className="section-container">
       <div className="text-box-3">
         <div className="text-left">
-          <h2>Skills.</h2>
-          <h3>THE PERFECT TRIFECTA</h3>
-
-
-          <div className="skills-row">
-            <div className="skills-image-container">
-              <img className="project-image" src="/static/software-engineer.png" alt=""></img>
-            </div>
-
-            <div className="skills-text-container">
-              <h3>SOFTWARE ENGINEERING</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
-            </div>
-          </div>
-
-          <div className="skills-row">
-            <div className="skills-image-container">
-              <img className="project-image" src="/static/digital-marketing.png" alt=""></img>
-            </div>
-
-            <div className="skills-text-container">
-              <h3>DIGITAL MARKETING</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
-            </div>
-          </div>
-
-          <div className="skills-row">
-            <div className="skills-image-container">
-              <img className="project-image" src="/static/designer.png" alt=""></img>
-            </div>
-
-            <div className="skills-text-container">
-              <h3>WEB & APP DESIGN</h3>
-              <h5>This is an H5! Here's some lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt.</h5>
-            </div>
-          </div>
+          <h2>Portfolio.</h2>
+          <h3>CONNECTED THROUGH CREATION</h3>
+          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
+          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
+          <h5>
+          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
+          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
 
           <div className="">
             <Link href="/projects">
@@ -139,67 +86,10 @@ const Projects = () => (
 
       <div className="text-box-4">
       <div className="text-right">
-          <h2>Tech.</h2>
-          <h3>TOOLS OF THE TRADE</h3>
-          <div className="tech-rows-container">
-            <div className="tech-row">
-              <div className="tech-image-container">
-                <span className="devicons devicons-react" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-python" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-django" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-ruby_on_rails" />
-              </div>
-            </div>
-
-            <div className="tech-row">
-              <div className="tech-image-container">
-                <span className="devicons devicons-javascript_badge" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-nodejs" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-html5" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-css3" />
-              </div>
-            </div>
-
-            <div className="tech-row">
-              <div className="tech-image-container">
-                <span className="devicons devicons-npm" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-swift" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-photoshop" />
-              </div>
-
-              <div className="tech-image-container">
-                <span className="devicons devicons-illustrator" />
-              </div>
-            </div>
-          </div>
-
-          <h5>GitHub Contributions - Updated January 21st, 2020</h5>
-          <img src="/static/github-calendar.png" alt=""></img>
-
+          <h2>LinkedUp.</h2>
+          <h3>HOW CAN I HELP YOU?</h3>
+          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
           <div className="">
             <Link href="/projects">
               <a className="view-more">View All</a>
@@ -212,44 +102,13 @@ const Projects = () => (
     <div className="section-container">
       <div className="text-box-5">
         <div className="text-left">
-          <h2>Education.</h2>
-          <h3>KNOWLEDGE IS KEY</h3>
-          
-          <div className="education-row">
-            <div className="education-image-container">
-              <img className="project-image" src="/static/flatironschool.png" alt=""></img>
-            </div>
-
-            <div className="education-text-container">
-              <h3>FLATIRON SCHOOL</h3>
-              <h4>The "Ivy League of coding bootcamps"</h4>
-              <h5>Full Stack Software Engineering | React, Javascript, Ruby on Rails</h5>
-            </div>
-          </div>
-
-          <div className="education-row">
-            <div className="education-image-container">
-              <img className="project-image" src="/static/teamtreehouse.png" alt=""></img>
-            </div>
-
-            <div className="education-text-container">
-              <h3>TEAMTREEHOUSE</h3>
-              <h4>A top-tier online school for learning code</h4>
-              <h5>Full Stack Javascript Development & Full Stack Web Development</h5>
-            </div>
-          </div>
-
-          <div className="education-row">
-            <div className="education-image-container">
-              <img className="project-image" src="/static/csi.png" alt=""></img>
-            </div>
-
-            <div className="education-text-container">
-              <h3>COLLEGE OF STATEN ISLAND</h3>
-              <h4>The largest campus in all of New York City</h4>
-              <h5>BS: Business Marketing | Learned Design skills on the side</h5>
-            </div>
-          </div>
+          <h2>Majin Sushi.</h2>
+          <h3>CONNECTED THROUGH CREATION</h3>
+          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
+          <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
+          <h5>
+          Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
+          <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
 
           <div className="">
             <Link href="/projects">
@@ -287,7 +146,7 @@ const Projects = () => (
       .cover {
         position: relative;
         min-height: 112vh;
-        background: transparent url(/static/pro-cover.JPG) no-repeat center center;
+        background: transparent url(/static/pro-about-me.JPG) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
         background-position: top;
@@ -353,6 +212,14 @@ const Projects = () => (
         margin-bottom: 10px;
         line-height: 0.3;
       }
+      .blink-h2 {
+        font-family: 'Galano';
+        font-size: 90px;
+        color: #F2F2F2;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
       h3 {
         font-family: 'Galano';
         font-size: 30px;
@@ -400,7 +267,7 @@ const Projects = () => (
       }
       .pic-box {
         box-sizing: border-box;
-        background: url(/static/pro-about-me.JPG) no-repeat center right;
+        background: url(/static/pro-cover.JPG) no-repeat center right;
         background-size: cover;
         background-position: top right 20%;
         float: right;

@@ -287,7 +287,7 @@ const About = () => (
       .cover {
         position: relative;
         min-height: 112vh;
-        background: transparent url(/static/pro-cover.JPG) no-repeat center center;
+        background: transparent url(/static/pro-work.JPG) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
         background-position: top;
@@ -400,7 +400,7 @@ const About = () => (
       }
       .pic-box {
         box-sizing: border-box;
-        background: url(/static/pro-about-me.JPG) no-repeat center right;
+        background-color: #000;
         background-size: cover;
         background-position: top right 20%;
         float: right;
@@ -419,7 +419,7 @@ const About = () => (
       }
       .pic-box-2 {
         box-sizing: border-box;
-        background: url(/static/pro-work.JPG) no-repeat center right;
+        background: url(/static/pro-cover.JPG) no-repeat center right;
         background-size: cover;
         background-position: top right 20%;
         float: left;
