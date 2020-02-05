@@ -17,14 +17,20 @@ const Projects = () => (
       <div className="text-box">
         <div className="text-left">
           <h2 className="blink-h2">Blink Health.</h2>
-          <h3>CONNECTED THROUGH CREATION</h3>
-          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
+          <h3>React • Python • Typescript</h3>
+          <h4>"Blink Health is the new way for all Americans to save on their prescriptions. With our proprietary technology, everyone now has access to one, low negotiated price on over 15,000 medications. Simply pay online before you pick up at your pharmacy to save."</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
           <h5>
           Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
           <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
 
           <div className="">
+            <Link href="/projects">
+              <a className="view-more">GitHub Repo</a>
+            </Link>
+            <Link href="/projects">
+              <a className="view-more">Demo</a>
+            </Link>
             <Link href="/projects">
               <a className="view-more">View All</a>
             </Link>
@@ -44,10 +50,16 @@ const Projects = () => (
       <div className="text-box-2">
       <div className="text-right">
           <h2>Sick Fits.</h2>
-          <h3>HOW CAN I HELP YOU?</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h3>React • Node • GraphQL</h3>
+          <h4>An e-commerce website for apparel and accessories.</h4>
           <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
           <div className="">
+            <Link href="/projects">
+              <a className="view-more">GitHub Repo</a>
+            </Link>
+            <Link href="/projects">
+              <a className="view-more">Demo</a>
+            </Link>
             <Link href="/projects">
               <a className="view-more">View All</a>
             </Link>
@@ -60,14 +72,20 @@ const Projects = () => (
       <div className="text-box-3">
         <div className="text-left">
           <h2>Portfolio.</h2>
-          <h3>CONNECTED THROUGH CREATION</h3>
-          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
+          <h3>React • Next • JavaScript</h3>
+          <h4>Made from scratch, this portfolio project is worth mentioning.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
           <h5>
           Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
           <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
 
           <div className="">
+            <Link href="/projects">
+              <a className="view-more">GitHub Repo</a>
+            </Link>
+            <Link href="/projects">
+              <a className="view-more">Demo</a>
+            </Link>
             <Link href="/projects">
               <a className="view-more">View All</a>
             </Link>
@@ -87,10 +105,16 @@ const Projects = () => (
       <div className="text-box-4">
       <div className="text-right">
           <h2>LinkedUp.</h2>
-          <h3>HOW CAN I HELP YOU?</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur a nisl a tincidunt. Etiam placerat velit sem, vel suscipit augue fermentum nec. Sociis natoque penatibus et magnis dis.</h4>
+          <h3>React • Ruby on Rails • Web Sockets</h3>
+          <h4>A self-destructing chat app that mimics real-life interactions.</h4>
           <h5>Parturient montes, nascetur ridiculus mus. Maecenas ac finibus turpis. Vivamus et elit in leo pretium pharetra. Sed lobortis urna turpis, id ultricies dolor pharetra ac. Proin suscipit odio non libero ullamcorper, sit amet tincidunt lacus porta. Aenean sodales lectus ex, non sagittis nibh ultricies at. Aliquam nec dolor posuere, vulputate mauris at, fermentum Donec ligula metus, hendrerit at malesuada vel, facilisis sit amet dui. Aliquam erat volutpat. Nulla eget ornare dolor. Pellentesque convallis dui ante, eu pretium ipsum bibendum fermentum. Proin dui arcu, mattis non ultricies ac, pellentesque eget ipsum. Nullam tincidunt orci in interdum facilisis. Vestibulum eu neque et mauris vestibulum pretium vel vitae enim. Vestibulum id ipsum risus. Suspendisse lectus tortor, pretium ut orci vitae, mollis iaculis risus.</h5>
           <div className="">
+            <Link href="/projects">
+              <a className="view-more">GitHub Repo</a>
+            </Link>
+            <Link href="/projects">
+              <a className="view-more">Demo</a>
+            </Link>
             <Link href="/projects">
               <a className="view-more">View All</a>
             </Link>
@@ -103,14 +127,20 @@ const Projects = () => (
       <div className="text-box-5">
         <div className="text-left">
           <h2>Majin Sushi.</h2>
-          <h3>CONNECTED THROUGH CREATION</h3>
-          <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
+          <h3>JavaScript • Ruby on Rails</h3>
+          <h4>An interactive restaurant game where you create and eat sushi.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
           <h5>
           Passionate about creating world class experiences for targeted audiences using websites, applications, and digital media.</h5>
           <h5>Natural-born leader and proactive team-player, with strong listening skills and empathetic communication skills who loves using storytelling to inspire others to take action.</h5>
 
           <div className="">
+          <Link href="/projects">
+              <a className="view-more">GitHub Repo</a>
+            </Link>
+            <Link href="/projects">
+              <a className="view-more">Demo</a>
+            </Link>
             <Link href="/projects">
               <a className="view-more">View All</a>
             </Link>
@@ -192,9 +222,6 @@ const Projects = () => (
         top: 25px;
         color: #FFF;
         border-radius: 5px;
-      }
-      a.view-more:hover {
-        color: #FECE00;
       }
       .text-left {
         text-align: left;

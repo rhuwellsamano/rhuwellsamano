@@ -334,9 +334,6 @@ const About = () => (
         color: #FFF;
         border-radius: 5px;
       }
-      a.view-more:hover {
-        color: #FECE00;
-      }
       .text-left {
         text-align: left;
         padding: 20px 130px;
