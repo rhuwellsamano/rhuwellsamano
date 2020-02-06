@@ -16,13 +16,13 @@ const About = () => (
         <div className="text-left">
           <h2>Origin Story.</h2>
             <h3>WHERE IT ALL BEGAN</h3>
-            <h4>"What you leave behind is not what is engraved in stone monuments, but what is woven into the lives of others." -- Pericles</h4>
+            <h4>Chapter One</h4>
             
-            <h5>My name is Rhuwell Samano and I'm a Full Stack Software Engineer. I specialize in React and mainly code in Javascript. I have a particularly rare combination of skills that allow me to have valuable insight into many, if not all, types of digital projects. </h5>
+            <h5>I've been learning about code since I was 6 years old. I used to read my uncle's programming books out of curiosity. In 7th grade, I hacked the school's laptops through the Terminal to get on YouTube to watch funny videos. I found ways to hack my video games, too. In High School, I designed a handful of my own websites with HTML and CSS.</h5>
             <h5>
-            By using Software Engineering, Digital Marketing and Web & App Design, I'm able to understand all of the moving parts of a project and connect them together into a beautiful handcrafted system that fuels and grows powerful brands. </h5>
+            In College, I started a clothing business and built the website, hacked a popular messaging app as a prank on my friends, and developed an app from scratch for a startup to help manage their digital signage. It was also during my collegiate years that I read a lot of leadership, personal development, and business books.</h5>
 
-            <h5>I'm passionate about creating world-class experiences for various communities using websites, applications, and digital media. The most important person I care about and create for is the end-user. I thoroughly enjoy working with others towards achieving that goal, no matter the project.</h5>
+            <h5>They were all just "a thing I did" or a hobby of mine. It was only recently I decided to turn my lifelong passions into a career. If you ask me how many years of experience I have, I'm tempted to say my entire life because frankly, it's true. The journey I've been on has given me three major abilities that make me a unique asset to any team.</h5>
 
             <div className="">
               <Link href="/about">
