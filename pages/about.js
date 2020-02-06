@@ -14,8 +14,8 @@ const About = () => (
     <div className="section-container">
       <div id="jump-to-top" className="text-box">
         <div className="text-left">
-          <h2>About.</h2>
-            <h3>CONNECTED THROUGH CREATION</h3>
+          <h2>Origin Story.</h2>
+            <h3>WHERE IT ALL BEGAN</h3>
             <h4>"What you leave behind is not what is engraved in stone monuments, but what is woven into the lives of others." -- Pericles</h4>
             
             <h5>My name is Rhuwell Samano and I'm a Full Stack Software Engineer. I specialize in React and mainly code in Javascript. I have a particularly rare combination of skills that allow me to have valuable insight into many, if not all, types of digital projects. </h5>
@@ -44,7 +44,7 @@ const About = () => (
 
       <div className="text-box-2">
       <div className="text-right">
-      <h2>About.</h2>
+      <h2>Web Design.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
@@ -65,7 +65,7 @@ const About = () => (
     <div className="section-container">
       <div className="text-box-3">
         <div className="text-left">
-        <h2>About.</h2>
+        <h2>Digital Marketing.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
@@ -93,7 +93,7 @@ const About = () => (
 
       <div className="text-box-4">
       <div className="text-right">
-          <h2>About.</h2>
+          <h2>Software Engineering.</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
@@ -114,7 +114,7 @@ const About = () => (
     <div className="section-container">
       <div className="text-box-5">
         <div className="text-left">
-          <h2>About.</h2>
+          <h2>What's Next?</h2>
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>I've had many jobs in many fields. I've gained a lot of foresight in my creation process through various perspectives.</h4>
           <h5>Full Stack Software Engineer with a background in digital marketing, video/photo production, and social media who enjoys combining creativity and technical abilities to bring projects from idea to completion.</h5>
@@ -218,11 +218,11 @@ const About = () => (
       }
       h2 {
         font-family: 'Galano';
-        font-size: 120px;
+        font-size: 90px;
         color: #F2F2F2;
         padding-top: 30px;
         margin-bottom: 10px;
-        line-height: 0.3;
+        line-height: 0.85;
       }
       .contact-h2 {
         font-family: 'Galano';
@@ -238,6 +238,7 @@ const About = () => (
         color: #343D4F;
         padding: 0px 0;
         margin-bottom: 0px;
+        margin-top: 0px;
       }
       h4 {
         font-family: 'CarreNoir';
@@ -334,7 +335,7 @@ const About = () => (
       }
       .pic-box-4 {
         box-sizing: border-box;
-        background: url(/static/pro-tech.JPG) no-repeat center right;
+        background: url(/static/pro-education.JPG) no-repeat center right;
         background-size: cover;
         background-position: top right 25%;
         float: left;
@@ -396,7 +397,7 @@ const About = () => (
       }
       .pic-box-5 {
         box-sizing: border-box;
-        background: url(/static/pro-education.JPG) no-repeat center right;
+        background: url(/static/pro-tech.JPG) no-repeat center right;
         background-size: cover;
         background-position: bottom right 20%;
         float: left;
