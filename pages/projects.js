@@ -15,7 +15,7 @@ const Projects = () => (
       <div id="jump-to-top" className="text-box">
         <div className="text-left">
           <h2 className="blink-h2">Blink Health.</h2>
-          <h3>React • Python • TypeScript</h3>
+          <h3>React • Redux • Python • Flow • Jest</h3>
 
           <h4>"Blink Health is the new way for all Americans to save on their prescriptions. With our proprietary technology, everyone now has access to one, low negotiated price on over 15,000 medications."</h4>
 
@@ -134,7 +134,7 @@ const Projects = () => (
           <h3>JavaScript • Ruby on Rails</h3>
           <h4>An interactive restaurant game where you create and eat sushi.</h4>
 
-          <h5>Still my favorite app to have worked on - it's a JavaScript game with a bunch of adorable sushi characters, animations and sounds. You have in-game currency that you use to purchase sushi to eat as you get hungry.. and you will get hungry. I'm planning on working on a sequel soon - Majin Sushi 2 , coming soon!</h5>
+          <h5>Still my favorite app to have worked on - it's a JavaScript game with a bunch of adorable sushi characters, animations and sounds. You have in-game currency that you use to purchase sushi to eat as you get hungry.. and you will get hungry. I'm planning on working on a sequel in the near future - Majin Sushi 2 , coming soon!</h5>
 
           <ul>
             <h3>What I Did:</h3>
@@ -162,18 +162,18 @@ const Projects = () => (
       </div>
 
       <div className="text-box-6">
-      <div className="text-right">
-      <h2>Contact.</h2>
-          <h3>HOW CAN I HELP YOU?</h3>
+        <div className="text-right">
+        <h2>Contact.</h2>
+            <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>What challenges are you facing?
-          Do you think I would be able to help your team?</h5>
+            <h5>What challenges are you facing?
+            Do you think I would be able to help your team?</h5>
 
-          <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
-          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+            <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
+            <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
 
-          <h3>rhuwell.samano@gmail.com</h3>
-          <h2 className="contact-h2">Thank you!</h2>
+            <h3>rhuwell.samano@gmail.com</h3>
+            <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
     </div>
