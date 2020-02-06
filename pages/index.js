@@ -26,7 +26,7 @@ const Homepage = () => (
 
           <div className="">
             <Link href="/about">
-              <a className="view-more">Read More</a>
+              <a className="view-more">Read More About Me</a>
             </Link>
           </div>
           
@@ -74,7 +74,7 @@ const Homepage = () => (
           </div>
           <div className="">
             <Link href="/projects">
-              <a className="view-more">View All</a>
+              <a className="view-more">View My Projects</a>
             </Link>
           </div>
         </div>
@@ -124,7 +124,7 @@ const Homepage = () => (
 
           <div className="">
             <Link href="/about">
-              <a className="view-more">Read More</a>
+              <a className="view-more">Read More About Me</a>
             </Link>
           </div>
         </div>
@@ -203,8 +203,8 @@ const Homepage = () => (
           <img src="/static/github-calendar.png" alt=""></img>
 
           <div className="">
-            <Link href="/about">
-              <a className="view-more">Read More</a>
+            <Link href="/projects">
+              <a className="view-more">View My Projects</a>
             </Link>
           </div>
         </div>
@@ -255,7 +255,7 @@ const Homepage = () => (
 
           <div className="">
             <Link href="/about">
-              <a className="view-more">Read More</a>
+              <a className="view-more">Read More About Me</a>
             </Link>
           </div>
 
