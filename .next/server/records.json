@@ -6,7 +6,8 @@
       "multi private-next-pages/index.js": 2,
       "multi private-next-pages/projects.js": 3,
       "multi next/dist/pages/_app": 4,
-      "multi next/dist/pages/_error": 5
+      "multi next/dist/pages/_error": 5,
+      "multi private-next-pages/notes.js": 6
     },
     "usedIds": {
       "0": 0,
@@ -14,7 +15,8 @@
       "2": 2,
       "3": 3,
       "4": 4,
-      "5": 5
+      "5": 5,
+      "6": 6
     }
   },
   "chunks": {
@@ -62,18 +64,49 @@
       "static/L0bfe1d764aqFqOGGDPmb/pages/_error.js": 4,
       "static/L0bfe1d764aqFqOGGDPmb/pages/about.js": 5,
       "static/L0bfe1d764aqFqOGGDPmb/pages/index.js": 6,
-      "static/L0bfe1d764aqFqOGGDPmb/pages/projects.js": 7
+      "static/L0bfe1d764aqFqOGGDPmb/pages/projects.js": 7,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/_app.js": 8,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/_document.js": 9,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/_error.js": 10,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/about.js": 11,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/index.js": 12,
+      "static/GlVNcFyh0LSNGuAFpz3RK/pages/projects.js": 13,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/_app.js": 2,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/_document.js": 3,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/_error.js": 4,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/about.js": 5,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/index.js": 6,
+      "static/aSFL45x5CzzuTu3BZkd8e/pages/projects.js": 7,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/_app.js": 8,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/_document.js": 9,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/_error.js": 10,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/about.js": 11,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/index.js": 12,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/notes.js": 13,
+      "static/GQ3racnpwzfGv_O1g-hEv/pages/projects.js": 14,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/_app.js": 2,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/_document.js": 3,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/_error.js": 4,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/about.js": 5,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/index.js": 6,
+      "static/RFDWNE6SN5BJJgCfuqMb5/pages/projects.js": 7,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/_app.js": 8,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/_document.js": 9,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/_error.js": 10,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/about.js": 11,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/index.js": 12,
+      "static/vzU1OvkA-KwfpXPOZj7Oc/pages/projects.js": 13
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7
+      10,
+      11,
+      12,
+      13,
+      8,
+      9
     ]
   }
 }

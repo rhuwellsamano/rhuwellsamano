@@ -14,6 +14,7 @@ const Header = () => (
         display: flex;
         justify-content: space-between;
         align-items: center;
+        overflow-x: hidden; 
       }
       @media (max-width: 600px) {
         .header-wrapper {

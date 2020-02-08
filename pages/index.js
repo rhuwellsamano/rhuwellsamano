@@ -285,13 +285,13 @@ const Homepage = () => (
           <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>I hope you've enjoyed learning more about me! It's definitely just scratching the surface of my abilities and definitely my personality, too. The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and unshakeable confidence.</h5>
+          <h5>I hope you've enjoyed learning more about me! <br/>It's definitely just scratching the surface of my abilities and definitely my personality, too. <br/>The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. <br/>Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and <br/>unshakeable confidence.</h5>
 
-          <h5>What challenges are you currently facing? Is there anything you think I can help you with?
-          Do you think I would be a good addition to your team?</h5>
+          <h5>What challenges are you currently facing? <br/>Is there anything you think I can help you with?
+          <br/>Do you think I would be a good addition to your team?</h5>
 
-          <h5>If so, I'm currently available for new opportunities as a Full Stack Software Engineer!</h5> 
-          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>If so, I'm currently available for new opportunities as a <br/>Full Stack Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, <br/>I'm always checking my e-mails!</h5>
 
           <h3>rhuwell.samano@gmail.com</h3>
           <h2 className="contact-h2">Thank you!</h2>
@@ -707,7 +707,7 @@ const Homepage = () => (
         }
         .text-right {
           text-align: right;
-          padding: 5px 60px;
+          padding: 5px 40px;
         }
         h2 {
           font-family: 'Galano';

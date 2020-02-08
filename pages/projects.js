@@ -38,7 +38,7 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-sickfits">
       <div className="pic-box-2">
 
       </div>
@@ -67,6 +67,11 @@ const Projects = () => (
 
         </div>
       </div>
+
+      <div className="pic-box-2-mobile">
+
+      </div>
+
     </div>
 
     <div className="section-container">
@@ -96,7 +101,7 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-linkedup">
       <div className="pic-box-4">
 
       </div>
@@ -125,12 +130,17 @@ const Projects = () => (
 
         </div>
       </div>
+
+      <div className="pic-box-4-mobile">
+
+      </div>
+
     </div>
 
     <div className="section-container">
       <div className="text-box-5">
         <div className="text-left">
-          <h2>Majin Sushi.</h2>
+          <h2 className="majin-h2">Majin Sushi.</h2>
           <h3>JavaScript • Ruby on Rails</h3>
           <h4>An interactive restaurant game where you create and eat sushi.</h4>
 
@@ -166,18 +176,23 @@ const Projects = () => (
         <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>I hope you've enjoyed learning more about me! It's definitely just scratching the surface of my abilities and definitely my personality, too. The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and unshakeable confidence.</h5>
+          <h5>I hope you've enjoyed learning more about me! <br/>It's definitely just scratching the surface of my abilities and definitely my personality, too. <br/>The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. <br/>Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and <br/>unshakeable confidence.</h5>
 
-          <h5>What challenges are you currently facing? Is there anything you think I can help you with?
-          Do you think I would be a good addition to your team?</h5>
+          <h5>What challenges are you currently facing? <br/>Is there anything you think I can help you with?
+          <br/>Do you think I would be a good addition to your team?</h5>
 
-          <h5>If so, I'm currently available for new opportunities as a Full Stack Software Engineer!</h5> 
-          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>If so, I'm currently available for new opportunities as a <br/>Full Stack Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, <br/>I'm always checking my e-mails!</h5>
 
           <h3>rhuwell.samano@gmail.com</h3>
           <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
+
+      <div className="pic-box-6-mobile">
+
+      </div>
+
     </div>
 
     <style jsx>{`
@@ -202,7 +217,6 @@ const Projects = () => (
         padding-left: 80px;
         padding-right: 80px;
         opacity: 100%;
-
       }
       .hello h1 {
         line-height: 1.0;
@@ -247,6 +261,14 @@ const Projects = () => (
         margin-bottom: 10px;
         line-height: 0.3;
       }
+      .work-h2 {
+        font-family: 'Galano';
+        font-size: 120px;
+        color: #F2F2F2;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
       .blink-h2 {
         font-family: 'Galano';
         font-size: 90px;
@@ -270,6 +292,14 @@ const Projects = () => (
         padding: 0px 0;
         margin-bottom: 0px;
       }
+      .contact-h5 {
+        font-family: 'Galano';
+        font-size: 30px;
+        color: #343D4F;
+        padding: 0px 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
       h4 {
         font-family: 'CarreNoir';
         font-size: 20px;
@@ -287,7 +317,7 @@ const Projects = () => (
       }
       .features-h5 {
         font-family: 'Varta';
-        font-size: 16px;
+        font-size: 12px;
         color: #a6b1b9;
         line-height: 2.2;
         padding: 0px 0;
@@ -305,6 +335,18 @@ const Projects = () => (
         }
       }
       .section-container {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-sickfits {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-linkedup {
         height: 130vh;
         display: block;
         max-width: 100%;
@@ -344,6 +386,17 @@ const Projects = () => (
         float: left;
         width: 40%;
         height: 100%;
+      }
+      @media (max-width: 480px) {
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
       }
       .projects-row-1 {
         display: flex;
@@ -497,6 +550,386 @@ const Projects = () => (
         float: right;
         width 60%;
         height: 100%;
+      }
+
+
+
+
+
+
+
+
+
+      @media (max-width: 480px) {
+        .cover {
+          box-sizing: border-box;
+          background: transparent url(/static/pro-about-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 28%;
+          text-align: left;
+          height: 80vh;
+        }
+        .hello {
+          color: #FFF;
+          line-height: 1.4;
+          display: inline-block;
+          position: relative;
+          top: 500px;
+          left: 10px;
+          padding-left: 20px;
+          padding-right: 80px;
+          opacity: 100%;
+        }
+        .hello h1 {
+          line-height: 1.0;
+          font-family: 'Galano';
+          color: #FFF;
+          font-size: 30px;
+          margin: 0 0 0px 0;
+          padding: 0px;
+        }
+        .subtitle {
+          font-family: "HomepageBaukasten-Bold";
+          font-size: 10px;
+          margin-top: 10px;
+          margin-left: 0px;
+        }
+        a.button {
+          font-family: 'Larsseit';
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: 10px;
+          background: #F5AD25;
+          margin-left: 5px;
+          margin-top: 30px;
+          padding: 8px 30px;
+          top: 25px;
+          color: #FFF;
+          border-radius: 5px;
+        }
+        .text-left {
+          text-align: left;
+          padding: 5px 40px;
+        }
+        .text-right {
+          text-align: right;
+          padding: 5px 40px;
+        }
+        h2 {
+          font-family: 'Galano';
+          font-size: 50px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .blink-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .majin-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .work-h2 {
+          font-family: 'Galano';
+          font-size: 60px;
+          color: #F2F2F2;
+          padding-top: 0px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .contact-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 0px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        h3 {
+          font-family: 'Galano';
+          font-size: 12px;
+          color: #343D4F;
+          padding: 5px 0;
+          margin-bottom: 0px;
+        }
+        .contact-h5 {
+          font-family: 'Galano';
+          font-size: 30px;
+          color: #343D4F;
+          padding: 0px 0;
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+        h4 {
+          font-family: 'CarreNoir';
+          font-size: 12px;
+          color: #a6b1b9;
+          padding: 0px 0;
+          margin-bottom: 0px;
+          line-height: 1.0;
+        }
+        h5 {
+          font-family: 'Varta';
+          font-size: 12px;
+          color: #a6b1b9;
+          line-height: 2.2;
+          padding: 0px 0;
+          margin-bottom: 0px;
+        }
+        @media (max-width: 480px) {
+          .hello {
+            font-family: 'Galano';
+            font-size: 18px;
+            padding: 20px;
+          }
+          h1 {
+            font-size: 28px;
+          }
+        }
+        .section-container {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .section-container-sickfits {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .section-container-linkedup {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .text-box {
+          box-sizing: border-box;
+          background: #FFF;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box {
+          box-sizing: border-box;
+          background: url(/static/pro-cover.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 28%;
+          float: right;
+          width: 100%;
+          height: 100vh;
+        }
+        .text-box-2 {
+          box-sizing: border-box;
+          background: #f2efef; 
+          float: left;
+          width 100%;
+          height: 100%;
+        }
+        .text-box-2 h2 {
+          color: #FFF;
+        }
+        .pic-box-2 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: right;
+          height: 90vh;
+        }
+        .projects-row-1 {
+          display: justify;
+        }
+        .project-image-container {
+          width: 50%;
+        }
+        .project-image {
+          width: 100%;
+          padding: 7px;
+          padding-top: 0px;
+        }
+        .text-box-3 {
+          box-sizing: border-box;
+          background: #1C212A;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-3 {
+          box-sizing: border-box;
+          background: url(/static/pro-skills.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 35%;
+          float: right;
+          width 100%;
+          height: 100%;
+        }
+        .pic-box-4 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-tech.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-4-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-tech.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .skills-row {
+          display: flex;
+          width: 100%;
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+        .skills-image-container {
+          width: 80px;
+          height: 60px;
+          display: flex;
+          margin-right: 5px;
+        }
+        .skills-text-container {
+          line-height: 1.2;
+          width: 75%;
+          display: inline;
+        }
+        .skills-text-container h3 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .skills-text-container h5 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .text-box-4 {
+          box-sizing: border-box;
+          background: #FFF; 
+          float: right;
+          width 100%;
+          height: 100%;
+        }
+        .tech-rows-container {
+          margin-top: 30px;
+        }
+        .tech-row {
+          display: flex;
+        }
+        .tech-image-container {
+          width: 30%;
+          padding: 5px;
+        }
+        .tech-image-container span {
+          font-size: 60px;
+          -o-transition:.3s;
+          -ms-transition:.3s;
+          -moz-transition:.3s;
+          -webkit-transition:.3s;
+          transition:.3s;
+        }
+        .tech-image-container span:hover {
+          color: #F5AD25;
+        }
+        .pic-box-5 {
+          box-sizing: border-box;
+          background: url(/static/pro-education.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: bottom right 20%;
+          float: left;
+          width: 100%;
+          height: 90vh;
+        }
+        .text-box-5 {
+          box-sizing: border-box;
+          background: #1C212A;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .text-box-5 h2 {
+          font-size: 40px;
+        }
+        .education-row {
+          display: flex;
+          width: 100%;
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+        .education-image-container {
+          height: 70px;
+          width: 80px;
+          display: flex;
+          margin-right: 5%;
+        }
+        .education-text-container {
+          line-height: 1.2;
+          width: 75%;
+          display: inline;
+        }
+        .education-text-container h3 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .education-text-container h4 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .education-text-container h5 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .pic-box-6 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-contact-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-6-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-contact-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100vh;
+        }
+        .text-box-6 {
+          box-sizing: border-box;
+          background: #FFF; 
+          float: right;
+          width 100%;
+          height: 100%;
+        }  
       }
     `}</style>
     </Layout>

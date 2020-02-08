@@ -83,6 +83,7 @@ const Layout = props => (
         color: #454545;
         font-family: 'Varta';
         text-rendering: optimizeLegibility;
+        overflow-x: hidden; 
       }
 
 
@@ -100,6 +101,7 @@ const Layout = props => (
       }
       img {
         max-width: 100%;
+        overflow-x: hidden; 
       }
       ul {
         margin-left: 0px;
