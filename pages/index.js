@@ -770,7 +770,7 @@ const Homepage = () => (
           margin: 0 auto;
         }
         .section-container-work {
-          height: 80vh;
+          height: 70vh;
           display: block;
           max-width: 100%;
           margin: 0 auto;
