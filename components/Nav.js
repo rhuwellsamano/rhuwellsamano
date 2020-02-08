@@ -216,16 +216,38 @@ const Nav = () => (
         transition:.3s;
       }
 
-      @media (max-width: 600px) {
+      @media (max-width: 480px) {
+        .icon-container {
+          display: block;
+          text-align: center;
+          padding: 15px 40px;
+          line-height: 1.0;
+          border-left-style: none;
+          border-width: 0px;
+          border-left-color: #303947;
+          line-height: 1.0;
+        }
         .nav {
           display: block;
-          margin-top: 20px;
         }
         .nav li {
           display: inline-block;
         }
         .nav li a {
           font-size: 18px;
+        }
+        .nav li div a {
+          display: block;
+          height: auto;
+          font-size: 16px;
+          color: #505765;
+          font-weight: 300;
+          text-align: center;
+          -o-transition:.3s;
+          -ms-transition:.3s;
+          -moz-transition:.3s;
+          -webkit-transition:.3s;
+          transition:.3s;
         }
       }
     `}</style>

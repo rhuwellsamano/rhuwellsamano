@@ -7,7 +7,7 @@ const Projects = () => (
       <div className="hello">
         <h1>PROJECTS.</h1>
         <div className="subtitle">SOFTWARE DEVELOPMENT • UI/UX • WEB & APP DESIGN</div>
-          <a href="#jump-to-top" className="view-more">LEARN MORE</a>
+          <a href="#jump-to-top" className="button">LEARN MORE</a>
       </div>
     </div>
 
@@ -29,7 +29,7 @@ const Projects = () => (
           </ul>
 
           <div className="">
-            <a href="http://www.blinkhealth.com" className="view-more">Website</a>
+            <a href="http://www.blinkhealth.com" className="button">Website</a>
           </div>
         </div>
       </div>
@@ -60,9 +60,9 @@ const Projects = () => (
           </ul>
 
           <div className="">
-            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/frontend" className="view-more">Frontend Repo</a>
-            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/backend" className="view-more">Backend Repo</a>
-            <a href="https://www.youtube.com/watch?v=ytATWMdlS_w" className="view-more">Demo</a>
+            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/frontend" className="button">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/advanced-react/tree/master/sick-fits/backend" className="button">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=ytATWMdlS_w" className="button">Demo</a>
           </div>
 
         </div>
@@ -86,7 +86,7 @@ const Projects = () => (
           </ul>
 
           <div className="">
-            <a href="https://github.com/rhuwellsamano/rhuwellsamano" className="view-more">GitHub Repo</a>
+            <a href="https://github.com/rhuwellsamano/rhuwellsamano" className="button">GitHub Repo</a>
           </div>
 
         </div>
@@ -118,9 +118,9 @@ const Projects = () => (
           </ul>
 
           <div className="">
-            <a href="https://github.com/rhuwellsamano/linkedup-frontend" className="view-more">Frontend Repo</a>
-            <a href="https://github.com/rhuwellsamano/linkedup-backend" className="view-more">Backend Repo</a>
-            <a href="https://www.youtube.com/watch?v=welfAhsiNm4" className="view-more">Demo</a>
+            <a href="https://github.com/rhuwellsamano/linkedup-frontend" className="button">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/linkedup-backend" className="button">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=welfAhsiNm4" className="button">Demo</a>
           </div>
 
         </div>
@@ -145,9 +145,9 @@ const Projects = () => (
           </ul>
 
           <div className="">
-            <a href="https://github.com/rhuwellsamano/majin-sushi-frontend" className="view-more">Frontend Repo</a>
-            <a href="https://github.com/rhuwellsamano/majin-sushi-backend" className="view-more">Backend Repo</a>
-            <a href="https://www.youtube.com/watch?v=klHWjDFI4IM" className="view-more">Demo</a>
+            <a href="https://github.com/rhuwellsamano/majin-sushi-frontend" className="button">Frontend Repo</a>
+            <a href="https://github.com/rhuwellsamano/majin-sushi-backend" className="button">Backend Repo</a>
+            <a href="https://www.youtube.com/watch?v=klHWjDFI4IM" className="button">Demo</a>
           </div>
         </div>
       </div>
@@ -164,16 +164,18 @@ const Projects = () => (
       <div className="text-box-6">
         <div className="text-right">
         <h2>Contact.</h2>
-            <h3>HOW CAN I HELP YOU?</h3>
+          <h3>HOW CAN I HELP YOU?</h3>
 
-            <h5>What challenges are you facing?
-            Do you think I would be able to help your team?</h5>
+          <h5>I hope you've enjoyed learning more about me! It's definitely just scratching the surface of my abilities and definitely my personality, too. The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and unshakeable confidence.</h5>
 
-            <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
-            <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>What challenges are you currently facing? Is there anything you think I can help you with?
+          Do you think I would be a good addition to your team?</h5>
 
-            <h3>rhuwell.samano@gmail.com</h3>
-            <h2 className="contact-h2">Thank you!</h2>
+          <h5>If so, I'm currently available for new opportunities as a Full Stack Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+
+          <h3>rhuwell.samano@gmail.com</h3>
+          <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
     </div>
@@ -181,7 +183,7 @@ const Projects = () => (
     <style jsx>{`
       .cover {
         position: relative;
-        min-height: 112vh;
+        min-height: 130vh;
         background: transparent url(/static/pro-about-me.JPG) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
@@ -216,7 +218,7 @@ const Projects = () => (
         margin-top: 10px;
         margin-left: 5px;
       }
-      a.view-more {
+      a.button {
         font-family: 'Larsseit';
         display: inline-block;
         text-transform: uppercase;
@@ -303,7 +305,7 @@ const Projects = () => (
         }
       }
       .section-container {
-        height: 112vh;
+        height: 130vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;

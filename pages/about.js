@@ -7,7 +7,7 @@ const About = () => (
       <div className="hello">
         <h1>ABOUT ME.</h1>
         <div className="subtitle">WANT TO KNOW MY STORY, SO FAR?</div>
-          <a href="#jump-to-top" className="view-more">LEARN MORE</a>
+          <a href="#jump-to-top" className="button">LEARN MORE</a>
       </div>
     </div>
 
@@ -25,7 +25,7 @@ const About = () => (
             <h5>They were all just "a thing I did" or a hobby of mine. It was only recently I decided to turn my lifelong passions into a career. If you ask me how many years of experience I have, I'm tempted to say my entire life because frankly, it's true. The journey I've been on has given me three major abilities that make me a unique asset to any team.</h5>
 
             <div className="">
-              <a href="#web-design" className="view-more">Continue Reading</a>
+              <a href="#web-design" className="button">Continue Reading</a>
             </div>
 
         </div>
@@ -53,7 +53,7 @@ const About = () => (
           <h5>That may or may not have gone over your head as not everyone can understand the power behind design. But, if you understand this part, then you know that it's not just the visuals that matter - it's largely a numbers game, too.</h5>
 
           <div className="">
-            <a href="#digital-marketing" className="view-more">Continue Reading</a>
+            <a href="#digital-marketing" className="button">Continue Reading</a>
           </div>
 
         </div>
@@ -74,7 +74,7 @@ const About = () => (
           <h5>With design and digital marketing under my belt now, it was time to complete the trifecta and officially learn how to completely build digital products myself.</h5>
 
           <div className="">
-            <a href="#software-engineering" className="view-more">Continue Reading</a>
+            <a href="#software-engineering" className="button">Continue Reading</a>
           </div>
 
         </div>
@@ -97,12 +97,12 @@ const About = () => (
 
           <h5>I've been coding my whole life, yes. But, as far as career goes, I was actually working my way up to becoming a bartender for this world-famous cocktail bar in New York City. Then, one day, I decided I wanted more rewarding work so I applied to Flatiron School to get a more formal education and fill in whatever knowledge gaps I had.</h5>
 
-          <h5>I was accepted into their Full Stack Software Engineering course. While I was there, I learned how to design and develop my own fully-functional applications full of unique features and how to work with others on a tech project - no matter how big or small.</h5>
+          <h5>I was accepted into their Full Stack Software Engineering course. While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project - no matter how big or small.</h5>
 
-          <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health. It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
+          <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users. It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
 
           <div className="">
-            <a href="#whats-next" className="view-more">Continue Reading</a>
+            <a href="#whats-next" className="button">Continue Reading</a>
           </div>
           
         </div>
@@ -123,7 +123,7 @@ const About = () => (
           <h5>If you have an opportunity you would like to share with me, would possibly like to work together, or if you just have any questions - let's chat! ☕️</h5>
 
           <div className="">
-            <a href="#contact-me" className="view-more">Contact Me</a>
+            <a href="#contact-me" className="button">Contact Me</a>
           </div>
 
         </div>
@@ -141,16 +141,18 @@ const About = () => (
       <div className="text-box-6">
       <div id="contact-me" className="text-right">
       <h2>Contact.</h2>
-            <h3>HOW CAN I HELP YOU?</h3>
+          <h3>HOW CAN I HELP YOU?</h3>
 
-            <h5>What challenges are you facing?
-            Do you think I would be able to help your team?</h5>
+          <h5>I hope you've enjoyed learning more about me! It's definitely just scratching the surface of my abilities and definitely my personality, too. The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and unshakeable confidence.</h5>
 
-            <h5>If so, I'm currently available for new opportunities as a Software Engineer!</h5> 
-            <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>What challenges are you currently facing? Is there anything you think I can help you with?
+          Do you think I would be a good addition to your team?</h5>
 
-            <h3>rhuwell.samano@gmail.com</h3>
-            <h2 className="contact-h2">Thank you!</h2>
+          <h5>If so, I'm currently available for new opportunities as a Full Stack Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+
+          <h3>rhuwell.samano@gmail.com</h3>
+          <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
     </div>
@@ -158,7 +160,7 @@ const About = () => (
     <style jsx>{`
       .cover {
         position: relative;
-        min-height: 112vh;
+        min-height: 130vh;
         background: transparent url(/static/pro-work.JPG) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;
@@ -193,7 +195,7 @@ const About = () => (
         margin-top: 10px;
         margin-left: 5px;
       }
-      a.view-more {
+      a.button {
         font-family: 'Larsseit';
         display: inline-block;
         text-transform: uppercase;
@@ -264,7 +266,7 @@ const About = () => (
         }
       }
       .section-container {
-        height: 112vh;
+        height: 130vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;

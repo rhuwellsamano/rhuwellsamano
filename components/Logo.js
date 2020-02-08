@@ -12,9 +12,13 @@ const Logo = () => (
         width: 220px;
         margin-left: 20px;
       }
-      @media (max-width: 600px) {
+      @media (max-width: 480px) {
         .logo {
           display: inline-block;
+        }
+        .logo img {
+          margin-left: 0px;
+          padding-top: 10px;
         }
       }
     `}</style>
