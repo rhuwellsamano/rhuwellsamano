@@ -37,7 +37,7 @@ const Homepage = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-work">
       <div className="pic-box-2">
 
       </div>
@@ -72,12 +72,17 @@ const Homepage = () => (
             </div>
 
           </div>
+
           <div className="">
             <Link href="/projects">
               <a className="button">View My Projects</a>
             </Link>
           </div>
+
         </div>
+      </div>
+
+      <div className="pic-box-2-mobile">
       </div>
     </div>
 
@@ -456,6 +461,16 @@ const Homepage = () => (
         width: 40%;
         height: 100%;
       }
+      .pic-box-2-mobile {
+        display: none;
+        box-sizing: border-box;
+        background: url(/static/pro-work.JPG) no-repeat center right;
+        background-size: cover;
+        background-position: top right 20%;
+        float: left;
+        width: 40%;
+        height: 100%;
+      }
       .projects-row-1 {
         display: flex;
       }
@@ -670,15 +685,15 @@ const Homepage = () => (
         }
         .text-left {
           text-align: left;
-          padding: 20px 130px;
+          padding: 5px 40px;
         }
         .text-right {
           text-align: right;
-          padding: 20px 130px;
+          padding: 5px 60px;
         }
         h2 {
           font-family: 'Galano';
-          font-size: 120px;
+          font-size: 40px;
           color: #F2F2F2;
           padding-top: 30px;
           margin-bottom: 10px;
@@ -686,7 +701,7 @@ const Homepage = () => (
         }
         .work-h2 {
           font-family: 'Galano';
-          font-size: 120px;
+          font-size: 40px;
           color: #F2F2F2;
           padding-top: 0px;
           margin-bottom: 10px;
@@ -694,7 +709,7 @@ const Homepage = () => (
         }
         .contact-h2 {
           font-family: 'Galano';
-          font-size: 80px;
+          font-size: 40px;
           color: #F2F2F2;
           padding-top: 0px;
           margin-bottom: 10px;
@@ -702,7 +717,7 @@ const Homepage = () => (
         }
         h3 {
           font-family: 'Galano';
-          font-size: 30px;
+          font-size: 12px;
           color: #343D4F;
           padding: 0px 0;
           margin-bottom: 0px;
@@ -717,14 +732,15 @@ const Homepage = () => (
         }
         h4 {
           font-family: 'CarreNoir';
-          font-size: 20px;
+          font-size: 12px;
           color: #a6b1b9;
           padding: 0px 0;
           margin-bottom: 0px;
+          line-height: 1.0;
         }
         h5 {
           font-family: 'Varta';
-          font-size: 16px;
+          font-size: 12px;
           color: #a6b1b9;
           line-height: 2.2;
           padding: 0px 0;
@@ -741,7 +757,13 @@ const Homepage = () => (
           }
         }
         .section-container {
-          height: 130vh;
+          height: 120vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+        .section-container-work {
+          height: 80vh;
           display: block;
           max-width: 100%;
           margin: 0 auto;
@@ -765,27 +787,36 @@ const Homepage = () => (
         .text-box-2 {
           box-sizing: border-box;
           background: #f2efef; 
-          float: right;
-          width 60%;
+          float: left;
+          width 100%;
           height: 100%;
         }
         .text-box-2 h2 {
           color: #FFF;
         }
         .pic-box-2 {
+          display: none;
           box-sizing: border-box;
           background: url(/static/pro-work.JPG) no-repeat center right;
           background-size: cover;
           background-position: top right 20%;
-          float: left;
-          width: 40%;
+          width: 30%;
+          height: 100%;
+        }
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: right;
+          width: 100%;
           height: 100%;
         }
         .projects-row-1 {
-          display: flex;
+          display: justify;
         }
         .project-image-container {
-          width: 100%;
+          width: 50%;
         }
         .project-image {
           width: 100%;

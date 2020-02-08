@@ -220,7 +220,7 @@ const Nav = () => (
         .icon-container {
           display: block;
           text-align: center;
-          padding: 15px 40px;
+          padding: 15px 25px;
           line-height: 1.0;
           border-left-style: none;
           border-width: 0px;
@@ -228,7 +228,8 @@ const Nav = () => (
           line-height: 1.0;
         }
         .nav {
-          display: block;
+          display: inline-block;
+          width: 100%;
         }
         .nav li {
           display: inline-block;
