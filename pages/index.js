@@ -139,7 +139,7 @@ const Homepage = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-tech">
       <div className="pic-box-4">
 
       </div>
@@ -204,7 +204,7 @@ const Homepage = () => (
             </div>
           </div>
 
-          <h5>GitHub Contributions - Updated January 21st, 2020</h5>
+          <h5>GitHub Contributions - Updated 1/21/20</h5>
           <img src="/static/github-calendar.png" alt=""></img>
 
           <div className="">
@@ -214,6 +214,10 @@ const Homepage = () => (
           </div>
         </div>
       </div>
+
+      <div className="pic-box-4-mobile">
+      </div>
+
     </div>
 
     <div className="section-container">
@@ -296,6 +300,10 @@ const Homepage = () => (
 
         </div>
       </div>
+
+      <div className="pic-box-6-mobile">
+      </div>
+
     </div>
 
     <style jsx>{`
@@ -427,6 +435,12 @@ const Homepage = () => (
         margin: 0 auto;
       }
       .section-container-work {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-tech {
         height: 130vh;
         display: block;
         max-width: 100%;
@@ -643,10 +657,9 @@ const Homepage = () => (
       @media (max-width: 480px) {
         .cover {
           position: relative;
-          min-height: 110vh;
-          background: transparent url(/static/pro-cover.JPG) no-repeat center right;
-          background-size: cover;
-          background-attachment: fixed;
+          min-height: 80vh;
+          background-image: transparent url(/static/pro-cover.JPG) no-repeat center right;
+          background-sizing: border-box;
           background-position: top right 24%;
           background-repeat: no-repeat;
           background-size: cover;
@@ -657,7 +670,7 @@ const Homepage = () => (
           line-height: 1.4;
           display: inline-block;
           position: relative;
-          top: 200px;
+          top: 320px;
           left: 10px;
           padding-left: 20px;
           padding-right: 80px;
@@ -700,7 +713,7 @@ const Homepage = () => (
         }
         h2 {
           font-family: 'Galano';
-          font-size: 40px;
+          font-size: 60px;
           color: #F2F2F2;
           padding-top: 30px;
           margin-bottom: 10px;
@@ -708,7 +721,7 @@ const Homepage = () => (
         }
         .work-h2 {
           font-family: 'Galano';
-          font-size: 40px;
+          font-size: 60px;
           color: #F2F2F2;
           padding-top: 0px;
           margin-bottom: 10px;
@@ -726,7 +739,7 @@ const Homepage = () => (
           font-family: 'Galano';
           font-size: 12px;
           color: #343D4F;
-          padding: 0px 0;
+          padding: 5px 0;
           margin-bottom: 0px;
         }
         .contact-h5 {
@@ -770,7 +783,13 @@ const Homepage = () => (
           margin: 0 auto;
         }
         .section-container-work {
-          height: 70vh;
+          height: 80vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+        .section-container-tech {
+          height: 100vh;
           display: block;
           max-width: 100%;
           margin: 0 auto;
@@ -789,7 +808,7 @@ const Homepage = () => (
           background-position: top right 28%;
           float: right;
           width: 100%;
-          height: 100%;
+          height: 100vh;
         }
         .text-box-2 {
           box-sizing: border-box;
@@ -816,8 +835,7 @@ const Homepage = () => (
           background-size: cover;
           background-position: top right 20%;
           float: right;
-          width: 100%;
-          height: 100%;
+          height: 90vh;
         }
         .projects-row-1 {
           display: justify;
@@ -834,7 +852,7 @@ const Homepage = () => (
           box-sizing: border-box;
           background: #1C212A;
           float: left;
-          width: 60%;
+          width: 100%;
           height: 100%;
         }
         .pic-box-3 {
@@ -843,16 +861,26 @@ const Homepage = () => (
           background-size: cover;
           background-position: top right 35%;
           float: right;
-          width 40%;
+          width 100%;
           height: 100%;
         }
         .pic-box-4 {
+          display: none;
           box-sizing: border-box;
           background: url(/static/pro-tech.JPG) no-repeat center right;
           background-size: cover;
           background-position: top right 25%;
           float: left;
-          width: 40%;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-4-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-tech.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
           height: 100%;
         }
         .skills-row {
@@ -884,7 +912,7 @@ const Homepage = () => (
           box-sizing: border-box;
           background: #FFF; 
           float: right;
-          width 60%;
+          width 100%;
           height: 100%;
         }
         .tech-rows-container {
@@ -898,7 +926,7 @@ const Homepage = () => (
           padding: 5px;
         }
         .tech-image-container span {
-          font-size: 100px;
+          font-size: 60px;
           -o-transition:.3s;
           -ms-transition:.3s;
           -moz-transition:.3s;
@@ -914,18 +942,18 @@ const Homepage = () => (
           background-size: cover;
           background-position: bottom right 20%;
           float: left;
-          width: 40%;
-          height: 100%;
+          width: 100%;
+          height: 90vh;
         }
         .text-box-5 {
           box-sizing: border-box;
           background: #1C212A;
           float: left;
-          width: 60%;
+          width: 100%;
           height: 100%;
         }
         .text-box-5 h2 {
-          font-size: 85px;
+          font-size: 50px;
         }
         .education-row {
           display: flex;
@@ -957,19 +985,29 @@ const Homepage = () => (
           margin-top: 0px;
         }
         .pic-box-6 {
+          display: none;
           box-sizing: border-box;
           background: url(/static/pro-contact-me.JPG) no-repeat center right;
           background-size: cover;
           background-position: top right 25%;
           float: left;
-          width: 40%;
+          width: 100%;
           height: 100%;
+        }
+        .pic-box-6-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-contact-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100vh;
         }
         .text-box-6 {
           box-sizing: border-box;
           background: #FFF; 
           float: right;
-          width 60%;
+          width 100%;
           height: 100%;
         }  
       }

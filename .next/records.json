@@ -1,0 +1,41 @@
+{
+  "modules": {
+    "byIdentifier": {},
+    "usedIds": {}
+  },
+  "chunks": {
+    "byName": {
+      "static/runtime/webpack.js": 0,
+      "commons": 1,
+      "static/ZmrWk8dbzCibV8AlFAK6L/pages/_app.js": 2,
+      "static/ZmrWk8dbzCibV8AlFAK6L/pages/_error.js": 3,
+      "static/ZmrWk8dbzCibV8AlFAK6L/pages/about.js": 4,
+      "static/ZmrWk8dbzCibV8AlFAK6L/pages/index.js": 5,
+      "static/ZmrWk8dbzCibV8AlFAK6L/pages/projects.js": 6,
+      "static/runtime/main.js": 7,
+      "static/runtime/polyfills.js": 8,
+      "static/RHi_dNtJT-mck4ovz-w1k/pages/_app.js": 9,
+      "static/RHi_dNtJT-mck4ovz-w1k/pages/_error.js": 10,
+      "static/RHi_dNtJT-mck4ovz-w1k/pages/about.js": 11,
+      "static/RHi_dNtJT-mck4ovz-w1k/pages/index.js": 12,
+      "static/RHi_dNtJT-mck4ovz-w1k/pages/projects.js": 13,
+      "static/mJ4YYg_bQLz9yxXuA9J4F/pages/_app.js": 2,
+      "static/mJ4YYg_bQLz9yxXuA9J4F/pages/_error.js": 3,
+      "static/mJ4YYg_bQLz9yxXuA9J4F/pages/about.js": 4,
+      "static/mJ4YYg_bQLz9yxXuA9J4F/pages/index.js": 5,
+      "static/mJ4YYg_bQLz9yxXuA9J4F/pages/projects.js": 6
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
