@@ -426,6 +426,12 @@ const Homepage = () => (
         max-width: 100%;
         margin: 0 auto;
       }
+      .section-container-work {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
       .text-box {
         box-sizing: border-box;
         background: #FFF;
@@ -461,15 +467,16 @@ const Homepage = () => (
         width: 40%;
         height: 100%;
       }
-      .pic-box-2-mobile {
-        display: none;
-        box-sizing: border-box;
-        background: url(/static/pro-work.JPG) no-repeat center right;
-        background-size: cover;
-        background-position: top right 20%;
-        float: left;
-        width: 40%;
-        height: 100%;
+      @media (max-width: 480px) {
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
       }
       .projects-row-1 {
         display: flex;
@@ -800,7 +807,7 @@ const Homepage = () => (
           background: url(/static/pro-work.JPG) no-repeat center right;
           background-size: cover;
           background-position: top right 20%;
-          width: 30%;
+          width: 100%;
           height: 100%;
         }
         .pic-box-2-mobile {
