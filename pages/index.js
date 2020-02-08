@@ -656,21 +656,19 @@ const Homepage = () => (
 
       @media (max-width: 480px) {
         .cover {
-          position: relative;
-          min-height: 80vh;
-          background-image: transparent url(/static/pro-cover.JPG) no-repeat center right;
-          background-sizing: border-box;
-          background-position: top right 24%;
-          background-repeat: no-repeat;
+          box-sizing: border-box;
+          background: transparent url(/static/pro-cover.JPG) no-repeat center right;
           background-size: cover;
+          background-position: top right 24%;
           text-align: left;
+          height: 80vh;
         }
         .hello {
           color: #FFF;
           line-height: 1.4;
           display: inline-block;
           position: relative;
-          top: 320px;
+          top: 500px;
           left: 10px;
           padding-left: 20px;
           padding-right: 80px;
@@ -780,19 +778,19 @@ const Homepage = () => (
           height: 120vh;
           display: block;
           max-width: 100%;
-          margin: 0 auto;
+          margin: 0 0;
         }
         .section-container-work {
           height: 80vh;
           display: block;
           max-width: 100%;
-          margin: 0 auto;
+          margin: 0 0;
         }
         .section-container-tech {
           height: 100vh;
           display: block;
           max-width: 100%;
-          margin: 0 auto;
+          margin: 0 0;
         }
         .text-box {
           box-sizing: border-box;
@@ -890,10 +888,10 @@ const Homepage = () => (
           padding-bottom: 20px;
         }
         .skills-image-container {
-          width: 20%;
-          height: 20%;
+          width: 80px;
+          height: 60px;
           display: flex;
-          margin-right: 5%;
+          margin-right: 5px;
         }
         .skills-text-container {
           line-height: 1.2;
@@ -962,8 +960,8 @@ const Homepage = () => (
           padding-bottom: 20px;
         }
         .education-image-container {
-          width: 20%;
-          height: 20%;
+          height: 70px;
+          width: 80px;
           display: flex;
           margin-right: 5%;
         }

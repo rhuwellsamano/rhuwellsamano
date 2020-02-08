@@ -76,6 +76,7 @@ const Layout = props => (
       }
       body {
         margin: 0;
+        padding: 0;
         font-size: 18px;
         line-height: 1.8;
         background: #f1f1f1;
