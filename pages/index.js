@@ -282,10 +282,10 @@ const Homepage = () => (
 
       <div className="text-box-6">
       <div className="text-right">
-          <h2>Contact.</h2>
+      <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>I hope you've enjoyed learning more about me! <br/>It's definitely just scratching the surface of my abilities and definitely my personality, too. <br/>The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. <br/>Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and <br/>unshakeable confidence.</h5>
+          <h5>I hope you've enjoyed learning more about me! <br/>It's definitely just scratching the surface of my abilities and definitely my personality, too. <br/>The industry has coined a term for someone with my skillset <br/>but I refuse to be labeled as a Unicorn. <br/>Jokes aside, I'm very well-rounded and I approach<br/> challenges head-on with an aura of high-spirits and <br/>unshakeable confidence.</h5>
 
           <h5>What challenges are you currently facing? <br/>Is there anything you think I can help you with?
           <br/>Do you think I would be a good addition to your team?</h5>

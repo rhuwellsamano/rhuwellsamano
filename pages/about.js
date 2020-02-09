@@ -58,6 +58,11 @@ const About = () => (
 
         </div>
       </div>
+
+      <div className="pic-box-2-mobile">
+
+      </div>
+
     </div>
 
     <div className="section-container">
@@ -67,7 +72,7 @@ const About = () => (
           <h3>INSPIRE OTHERS TO THE NEXT LEVEL</h3>
           <h4>Chapter Three</h4>
 
-          <h5>Digital Marketing is largely just storytelling. The catch is, the main character of the story is the person you're telling it to! The goal is to develop a deeper level of trust between the target audience and the brand by taking them through sequential steps in your funnel.</h5>
+          <h5>Digital Marketing at it's core is just storytelling. The catch is, the main character of the story is the person you're telling it to! The goal is to develop a deeper level of trust between the target audience and the brand by taking them through sequential steps in your funnel.</h5>
 
           <h5>Sure, I went to college for Marketing but I mostly learned on my own through books, blogs, YouTube, podcasts - but most notably, my own hands-on experience. Heck, one time I helped with an ad campaign for Ariana Grande with a water bottle startup! I raised Facebook engagement by over 800% for this other startup once, too. That led to a major increase in sales for the coming months.</h5>
 
@@ -95,11 +100,11 @@ const About = () => (
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>Chapter Four</h4>
 
-          <h5>I've been coding my whole life, yes. But, as far as career goes, I was actually working my way up to becoming a bartender for this world-famous cocktail bar in New York City. Then, one day, I decided I wanted more rewarding work so I applied to Flatiron School to get a more formal education and fill in whatever knowledge gaps I had.</h5>
+          <h5>I've been coding my whole life, yes. But, as far as career goes, I was actually working my way up to becoming a bartender for this world-famous cocktail bar in New York City. Then, one day, I decided I wanted more rewarding work so I applied to<br/> Flatiron School to get a more formal education and fill in whatever knowledge gaps I had.</h5>
 
-          <h5>I was accepted into their Full Stack Software Engineering course. While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project - no matter how big or small.</h5>
+          <h5>I was accepted into their Full Stack Software Engineering course.<br/> While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project<br/> - no matter how big or small.</h5>
 
-          <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users. It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
+          <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users.<br/> It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
 
           <div className="">
             <a href="#whats-next" className="button">Continue Reading</a>
@@ -107,6 +112,11 @@ const About = () => (
           
         </div>
       </div>
+
+      <div className="pic-box-4-mobile">
+
+      </div>
+
     </div>
 
     <div className="section-container">
@@ -143,18 +153,23 @@ const About = () => (
       <h2>Contact.</h2>
           <h3>HOW CAN I HELP YOU?</h3>
 
-          <h5>I hope you've enjoyed learning more about me! It's definitely just scratching the surface of my abilities and definitely my personality, too. The industry has coined a term for someone with my skillset but I refuse to be labeled as a Unicorn. Jokes aside, I'm very well-rounded and I approach challenges head-on with an aura of high-spirits and unshakeable confidence.</h5>
+          <h5>I hope you've enjoyed learning more about me! <br/>It's definitely just scratching the surface of my abilities and definitely my personality, too. <br/>The industry has coined a term for someone with my skillset <br/>but I refuse to be labeled as a Unicorn. <br/>Jokes aside, I'm very well-rounded and I approach<br/> challenges head-on with an aura of high-spirits and <br/>unshakeable confidence.</h5>
 
-          <h5>What challenges are you currently facing? Is there anything you think I can help you with?
-          Do you think I would be a good addition to your team?</h5>
+          <h5>What challenges are you currently facing? <br/>Is there anything you think I can help you with?
+          <br/>Do you think I would be a good addition to your team?</h5>
 
-          <h5>If so, I'm currently available for new opportunities as a Full Stack Software Engineer!</h5> 
-          <h5>If you would like to get in touch with me, I'm always checking my e-mails!</h5>
+          <h5>If so, I'm currently available for new opportunities as a <br/>Full Stack Software Engineer!</h5> 
+          <h5>If you would like to get in touch with me, <br/>I'm always checking my e-mails!</h5>
 
           <h3>rhuwell.samano@gmail.com</h3>
           <h2 className="contact-h2">Thank you!</h2>
         </div>
       </div>
+
+      <div className="pic-box-6-mobile">
+
+      </div>
+
     </div>
 
     <style jsx>{`
@@ -179,7 +194,6 @@ const About = () => (
         padding-left: 80px;
         padding-right: 80px;
         opacity: 100%;
-
       }
       .hello h1 {
         line-height: 1.0;
@@ -218,11 +232,27 @@ const About = () => (
       }
       h2 {
         font-family: 'Galano';
+        font-size: 80px;
+        color: #F2F2F2;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        line-height: 0.9;
+      }
+      .work-h2 {
+        font-family: 'Galano';
+        font-size: 120px;
+        color: #F2F2F2;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        line-height: 0.3;
+      }
+      .blink-h2 {
+        font-family: 'Galano';
         font-size: 90px;
         color: #F2F2F2;
         padding-top: 30px;
         margin-bottom: 10px;
-        line-height: 0.85;
+        line-height: 0.3;
       }
       .contact-h2 {
         font-family: 'Galano';
@@ -233,6 +263,14 @@ const About = () => (
         line-height: 0.3;
       }
       h3 {
+        font-family: 'Galano';
+        font-size: 30px;
+        color: #343D4F;
+        padding: 0px 0;
+        margin-bottom: 0px;
+        line-height: 0.1;
+      }
+      .contact-h5 {
         font-family: 'Galano';
         font-size: 30px;
         color: #343D4F;
@@ -255,6 +293,15 @@ const About = () => (
         padding: 0px 0;
         margin-bottom: 0px;
       }
+      .features-h5 {
+        font-family: 'Varta';
+        font-size: 12px;
+        color: #a6b1b9;
+        line-height: 2.2;
+        padding: 0px 0;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
       @media (max-width: 480px) {
         .hello {
           font-family: 'Galano';
@@ -266,6 +313,18 @@ const About = () => (
         }
       }
       .section-container {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-sickfits {
+        height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-linkedup {
         height: 130vh;
         display: block;
         max-width: 100%;
@@ -306,6 +365,17 @@ const About = () => (
         width: 40%;
         height: 100%;
       }
+      @media (max-width: 480px) {
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+      }
       .projects-row-1 {
         display: flex;
       }
@@ -335,7 +405,7 @@ const About = () => (
       }
       .pic-box-4 {
         box-sizing: border-box;
-        background: url(/static/pro-education.JPG) no-repeat center right;
+        background: url(/static/pro-tech.JPG) no-repeat center right;
         background-size: cover;
         background-position: top right 25%;
         float: left;
@@ -397,7 +467,7 @@ const About = () => (
       }
       .pic-box-5 {
         box-sizing: border-box;
-        background: url(/static/pro-tech.JPG) no-repeat center right;
+        background: url(/static/pro-education.JPG) no-repeat center right;
         background-size: cover;
         background-position: bottom right 20%;
         float: left;
@@ -458,6 +528,387 @@ const About = () => (
         float: right;
         width 60%;
         height: 100%;
+      }
+
+
+
+
+
+
+
+
+
+      @media (max-width: 480px) {
+        .cover {
+          box-sizing: border-box;
+          background: transparent url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          text-align: left;
+          height: 80vh;
+        }
+        .hello {
+          color: #FFF;
+          line-height: 1.4;
+          display: inline-block;
+          position: relative;
+          top: 500px;
+          left: 10px;
+          padding-left: 20px;
+          padding-right: 80px;
+          opacity: 100%;
+        }
+        .hello h1 {
+          line-height: 1.0;
+          font-family: 'Galano';
+          color: #FFF;
+          font-size: 30px;
+          margin: 0 0 0px 0;
+          padding: 0px;
+        }
+        .subtitle {
+          font-family: "HomepageBaukasten-Bold";
+          font-size: 10px;
+          margin-top: 10px;
+          margin-left: 0px;
+        }
+        a.button {
+          font-family: 'Larsseit';
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: 10px;
+          background: #F5AD25;
+          margin-left: 5px;
+          margin-top: 30px;
+          padding: 8px 30px;
+          top: 25px;
+          color: #FFF;
+          border-radius: 5px;
+        }
+        .text-left {
+          text-align: left;
+          padding: 5px 40px;
+        }
+        .text-right {
+          text-align: right;
+          padding: 5px 40px;
+        }
+        h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.9;
+        }
+        .blink-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .majin-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 30px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .work-h2 {
+          font-family: 'Galano';
+          font-size: 60px;
+          color: #F2F2F2;
+          padding-top: 0px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        .contact-h2 {
+          font-family: 'Galano';
+          font-size: 40px;
+          color: #F2F2F2;
+          padding-top: 0px;
+          margin-bottom: 10px;
+          line-height: 0.3;
+        }
+        h3 {
+          font-family: 'Galano';
+          font-size: 12px;
+          color: #343D4F;
+          padding: 5px 0;
+          margin-bottom: 0px;
+          line-height: 0.1;
+        }
+        .contact-h5 {
+          font-family: 'Galano';
+          font-size: 30px;
+          color: #343D4F;
+          padding: 0px 0;
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
+        h4 {
+          font-family: 'CarreNoir';
+          font-size: 12px;
+          color: #a6b1b9;
+          padding: 0px 0;
+          margin-bottom: 0px;
+          line-height: 1.0;
+        }
+        h5 {
+          font-family: 'Varta';
+          font-size: 12px;
+          color: #a6b1b9;
+          line-height: 2.2;
+          padding: 0px 0;
+          margin-bottom: 0px;
+        }
+        @media (max-width: 480px) {
+          .hello {
+            font-family: 'Galano';
+            font-size: 18px;
+            padding: 20px;
+          }
+          h1 {
+            font-size: 28px;
+          }
+        }
+        .section-container {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .section-container-sickfits {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .section-container-linkedup {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 0;
+        }
+        .text-box {
+          box-sizing: border-box;
+          background: #FFF;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box {
+          box-sizing: border-box;
+          background: url(/static/pro-about-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 28%;
+          float: right;
+          width: 100%;
+          height: 100vh;
+        }
+        .text-box-2 {
+          box-sizing: border-box;
+          background: #f2efef; 
+          float: left;
+          width 100%;
+          height: 100%;
+        }
+        .text-box-2 h2 {
+          color: #FFF;
+        }
+        .pic-box-2 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-cover.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-2-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-work.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 20%;
+          float: right;
+          height: 90vh;
+        }
+        .projects-row-1 {
+          display: justify;
+        }
+        .project-image-container {
+          width: 50%;
+        }
+        .project-image {
+          width: 100%;
+          padding: 7px;
+          padding-top: 0px;
+        }
+        .text-box-3 {
+          box-sizing: border-box;
+          background: #1C212A;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-3 {
+          box-sizing: border-box;
+          background: url(/static/pro-skills.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 35%;
+          float: right;
+          width 100%;
+          height: 100%;
+        }
+        .pic-box-4 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-tech.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-4-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-tech.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .skills-row {
+          display: flex;
+          width: 100%;
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+        .skills-image-container {
+          width: 80px;
+          height: 60px;
+          display: flex;
+          margin-right: 5px;
+        }
+        .skills-text-container {
+          line-height: 1.2;
+          width: 75%;
+          display: inline;
+        }
+        .skills-text-container h3 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .skills-text-container h5 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .text-box-4 {
+          box-sizing: border-box;
+          background: #FFF; 
+          float: right;
+          width 100%;
+          height: 100%;
+        }
+        .tech-rows-container {
+          margin-top: 30px;
+        }
+        .tech-row {
+          display: flex;
+        }
+        .tech-image-container {
+          width: 30%;
+          padding: 5px;
+        }
+        .tech-image-container span {
+          font-size: 60px;
+          -o-transition:.3s;
+          -ms-transition:.3s;
+          -moz-transition:.3s;
+          -webkit-transition:.3s;
+          transition:.3s;
+        }
+        .tech-image-container span:hover {
+          color: #F5AD25;
+        }
+        .pic-box-5 {
+          box-sizing: border-box;
+          background: url(/static/pro-education.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: bottom right 20%;
+          float: left;
+          width: 100%;
+          height: 90vh;
+        }
+        .text-box-5 {
+          box-sizing: border-box;
+          background: #1C212A;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .text-box-5 h2 {
+          font-size: 40px;
+        }
+        .education-row {
+          display: flex;
+          width: 100%;
+          padding-top: 40px;
+          padding-bottom: 20px;
+        }
+        .education-image-container {
+          height: 70px;
+          width: 80px;
+          display: flex;
+          margin-right: 5%;
+        }
+        .education-text-container {
+          line-height: 1.2;
+          width: 75%;
+          display: inline;
+        }
+        .education-text-container h3 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .education-text-container h4 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .education-text-container h5 {
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+        .pic-box-6 {
+          display: none;
+          box-sizing: border-box;
+          background: url(/static/pro-contact-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100%;
+        }
+        .pic-box-6-mobile {
+          box-sizing: border-box;
+          background: url(/static/pro-contact-me.JPG) no-repeat center right;
+          background-size: cover;
+          background-position: top right 25%;
+          float: left;
+          width: 100%;
+          height: 100vh;
+        }
+        .text-box-6 {
+          box-sizing: border-box;
+          background: #FFF; 
+          float: right;
+          width 100%;
+          height: 100%;
+        }  
       }
     `}</style>
   </Layout>
