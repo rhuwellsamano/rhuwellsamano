@@ -676,7 +676,7 @@ const About = () => (
           }
         }
         .section-container {
-          height: 140vh;
+          height: 150vh;
           display: block;
           max-width: 100%;
           margin: 0 0;

@@ -275,7 +275,7 @@ const Homepage = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-contact">
       <div className="pic-box-6">
 
       </div>
@@ -442,6 +442,12 @@ const Homepage = () => (
       }
       .section-container-tech {
         height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-contact {
+        height: 140vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;
@@ -791,6 +797,12 @@ const Homepage = () => (
           display: block;
           max-width: 100%;
           margin: 0 0;
+        }
+        .section-container-contact {
+          height: 180vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 auto;
         }
         .text-box {
           box-sizing: border-box;
