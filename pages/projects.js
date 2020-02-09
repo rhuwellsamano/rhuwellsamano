@@ -14,7 +14,7 @@ const Projects = () => (
     <div className="section-container">
       <div id="jump-to-top" className="text-box">
         <div className="text-left">
-          <h2 className="blink-h2">Blink Health.</h2>
+          <h2 id="blink-health" className="blink-h2">Blink Health.</h2>
           <h3>React • Redux • Python • Flow • Jest</h3>
 
           <h4>"Blink Health is the new way for all Americans to save on their prescriptions. With our proprietary technology, everyone now has access to one, low negotiated price on over 15,000 medications."</h4>
@@ -45,7 +45,7 @@ const Projects = () => (
 
       <div className="text-box-2">
       <div className="text-right">
-          <h2>Sick Fits.</h2>
+          <h2 id="sick-fits" >Sick Fits.</h2>
           <h3>React • Next • GraphQL • Prisma • Jest</h3>
           <h4>An e-commerce app for buying and selling apparel, shoes, and accessories.</h4>
 
@@ -77,7 +77,7 @@ const Projects = () => (
     <div className="section-container">
       <div className="text-box-3">
         <div className="text-left">
-          <h2>Portfolio.</h2>
+          <h2 id="portfolio" >Portfolio.</h2>
           <h3>React • Next • JavaScript</h3>
           <h4>Made from scratch, this portfolio project is worth mentioning.</h4>
 
@@ -108,7 +108,7 @@ const Projects = () => (
 
       <div className="text-box-4">
       <div className="text-right">
-          <h2>LinkedUP.</h2>
+          <h2 id="linkedup" >LinkedUP.</h2>
           <h3>React • Ruby on Rails • WebSockets</h3>
           <h4>A self-destructing chat app that aims to mimic real-life interactions.</h4>
 
@@ -140,7 +140,7 @@ const Projects = () => (
     <div className="section-container">
       <div className="text-box-5">
         <div className="text-left">
-          <h2 className="majin-h2">Majin Sushi.</h2>
+          <h2 id="majin-sushi" className="majin-h2">Majin Sushi.</h2>
           <h3>JavaScript • Ruby on Rails</h3>
           <h4>An interactive restaurant game where you create and eat sushi.</h4>
 

@@ -74,7 +74,7 @@ const About = () => (
 
           <h5>Digital Marketing at it's core is just storytelling. The catch is, the main character of the story is the person you're telling it to! The goal is to develop a deeper level of trust between the target audience and the brand by taking them through sequential steps in your funnel.</h5>
 
-          <h5>Sure, I went to college for Marketing but I mostly learned on my own through books, blogs, YouTube, podcasts - but most notably, my own hands-on experience. Heck, one time I helped with an ad campaign for Ariana Grande with a water bottle startup! I raised Facebook engagement by over 800% for this other startup once, too. That led to a major increase in sales for the coming months.</h5>
+          <h5>Sure, I went to college for Marketing but I mostly learned on my own through books, blogs, YouTube, podcasts - but most notably, my own hands-on experience. I've worked on an ad campaign for Ariana Grande with a water bottle startup. In another startup, I raised Facebook engagement by over 800% through social media marketing which led to a major increase in sales for the coming months.</h5>
 
           <h5>With design and digital marketing under my belt now, it was time to complete the trifecta and officially learn how to completely build digital products myself.</h5>
 
@@ -100,9 +100,9 @@ const About = () => (
           <h3>CONNECTED THROUGH CREATION</h3>
           <h4>Chapter Four</h4>
 
-          <h5>I've been coding my whole life, yes. But, as far as career goes, I was actually working my way up to becoming a bartender for this world-famous cocktail bar in New York City. Then, one day, I decided I wanted more rewarding work so I applied to<br/> Flatiron School to get a more formal education and fill in whatever knowledge gaps I had.</h5>
+          <h5>I've been coding my whole life, yes. But, as far as career goes, I was actually working my way up to becoming a bartender for this world-famous cocktail bar in New York City. Then, one day, I decided I wanted more rewarding work so I applied to Flatiron School to get a more formal education in coding and be up-to-date with popular technologies being used today.</h5>
 
-          <h5>I was accepted into their Full Stack Software Engineering course.<br/> While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project<br/> - no matter how big or small.</h5>
+          <h5>I was accepted into their Full Stack Software Engineering course. While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project - no matter how big or small. In my spare time, I also refined my software engineering skills through additional online courses at TeamTreehouse.</h5>
 
           <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users.<br/> It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
 
