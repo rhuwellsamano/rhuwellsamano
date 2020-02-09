@@ -143,18 +143,24 @@
       "static/wCxdvn824XuqmH1KXfwFz/pages/_error.js": 10,
       "static/wCxdvn824XuqmH1KXfwFz/pages/about.js": 11,
       "static/wCxdvn824XuqmH1KXfwFz/pages/index.js": 12,
-      "static/wCxdvn824XuqmH1KXfwFz/pages/projects.js": 13
+      "static/wCxdvn824XuqmH1KXfwFz/pages/projects.js": 13,
+      "static/CupPCflURfI7y7rpfF7Av/pages/_app.js": 2,
+      "static/CupPCflURfI7y7rpfF7Av/pages/_document.js": 3,
+      "static/CupPCflURfI7y7rpfF7Av/pages/_error.js": 4,
+      "static/CupPCflURfI7y7rpfF7Av/pages/about.js": 5,
+      "static/CupPCflURfI7y7rpfF7Av/pages/index.js": 6,
+      "static/CupPCflURfI7y7rpfF7Av/pages/projects.js": 7
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      11,
-      12,
-      13,
-      8,
-      9
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
     ]
   }
 }
