@@ -429,7 +429,7 @@ const Homepage = () => (
         }
       }
       .section-container {
-        height: 130vh;
+        height: 140vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;
@@ -775,13 +775,13 @@ const Homepage = () => (
           }
         }
         .section-container {
-          height: 120vh;
+          height: 130vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
         }
         .section-container-work {
-          height: 80vh;
+          height: 90vh;
           display: block;
           max-width: 100%;
           margin: 0 0;

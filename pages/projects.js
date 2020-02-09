@@ -166,7 +166,7 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="section-container">
+    <div className="section-container-contact">
       <div className="pic-box-6">
 
       </div>
@@ -317,7 +317,7 @@ const Projects = () => (
       }
       .features-h5 {
         font-family: 'Varta';
-        font-size: 12px;
+        font-size: 16px;
         color: #a6b1b9;
         line-height: 2.2;
         padding: 0px 0;
@@ -348,6 +348,12 @@ const Projects = () => (
       }
       .section-container-linkedup {
         height: 130vh;
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .section-container-contact {
+        height: 150vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;
@@ -686,6 +692,15 @@ const Projects = () => (
           padding: 0px 0;
           margin-bottom: 0px;
         }
+        .features-h5 {
+          font-family: 'Varta';
+          font-size: 12px;
+          color: #a6b1b9;
+          line-height: 2.2;
+          padding: 0px 0;
+          margin-bottom: 0px;
+          margin-top: 0px;
+        }
         @media (max-width: 480px) {
           .hello {
             font-family: 'Galano';
@@ -697,22 +712,28 @@ const Projects = () => (
           }
         }
         .section-container {
-          height: 130vh;
+          height: 150vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
         }
         .section-container-sickfits {
-          height: 130vh;
+          height: 150vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
         }
         .section-container-linkedup {
-          height: 130vh;
+          height: 150vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
+        }
+        .section-container-contact {
+          height: 130vh;
+          display: block;
+          max-width: 100%;
+          margin: 0 auto;
         }
         .text-box {
           box-sizing: border-box;

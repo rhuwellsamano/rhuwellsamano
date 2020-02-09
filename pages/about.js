@@ -313,7 +313,7 @@ const About = () => (
         }
       }
       .section-container {
-        height: 130vh;
+        height: 150vh;
         display: block;
         max-width: 100%;
         margin: 0 auto;
@@ -676,19 +676,19 @@ const About = () => (
           }
         }
         .section-container {
-          height: 130vh;
+          height: 140vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
         }
         .section-container-sickfits {
-          height: 130vh;
+          height: 140vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
         }
         .section-container-linkedup {
-          height: 130vh;
+          height: 140vh;
           display: block;
           max-width: 100%;
           margin: 0 0;
