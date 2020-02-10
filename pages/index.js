@@ -8,6 +8,9 @@ const Homepage = () => (
         <h1>BRILLIANTLY DESIGNED AND BUILT.</h1>
         <div className="subtitle">RHUWELL SAMANO • FULL STACK SOFTWARE ENGINEER</div>
           <a href="#jump-to-top" className="button">LEARN MORE</a>
+          <a href="http://medium.com/@rhuwell" className="button">MEDIUM</a>
+          <a href="https://www.linkedin.com/in/rhuwellsamano/" className="button">LINKEDIN</a>
+          <a href="https://github.com/rhuwellsamano" className="button">GITHUB</a>
       </div>
     </div>
 

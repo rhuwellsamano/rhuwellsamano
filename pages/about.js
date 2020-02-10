@@ -8,6 +8,9 @@ const About = () => (
         <h1>ABOUT ME.</h1>
         <div className="subtitle">WANT TO KNOW MY STORY, SO FAR?</div>
           <a href="#jump-to-top" className="button">LEARN MORE</a>
+          <a href="http://medium.com/@rhuwell" className="button">MEDIUM</a>
+          <a href="https://www.linkedin.com/in/rhuwellsamano/" className="button">LINKEDIN</a>
+          <a href="https://github.com/rhuwellsamano" className="button">GITHUB</a>
       </div>
     </div>
 
