@@ -107,7 +107,7 @@ const About = () => (
 
           <h5>I was accepted into their Full Stack Software Engineering course. While I was there, I learned how to design and develop my own fully-functional applications filled with unique features and how to work with others on a tech project - no matter how big or small. In my spare time, I also refined my software engineering skills through additional online courses at TeamTreehouse.</h5>
 
-          <h5>Afterwards, I landed an internship as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users.<br/> It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
+          <h5>Afterwards, I landed a position as a Software Engineer for a wonderful startup called Blink Health that has well over a million active users.<br/> It was an amazing experience that really opened my eyes to what I was capable of achieving, especially working with other engineers!</h5>
 
           <div className="">
             <a href="#whats-next" className="button">Continue Reading</a>
