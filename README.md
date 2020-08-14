@@ -1,6 +1,6 @@
-### Hey there, I'm Rhuwell (but call me Rhu) [codeSTACKr][website] 👋
+### Hey there, I'm Rhu! [Portfolio][website] 👋
 
-## I'm a Full Stack Software Engineer & UX/UI Designer.
+## I'm a Full Stack Software Engineer.
 
 - 🔭 I’m currently working on a [VS Code Course][website]!
 - 🌱 I’m currently learning Data Visualization with React + D3 🤣
