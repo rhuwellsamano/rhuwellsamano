@@ -52,7 +52,7 @@
 - [There's more to CONSOLE than .log( ) | Things you didn't know console could do!!](https://www.youtube.com/watch?v=_-bHhEGcDiQ)
 <!-- YOUTUBE:END -->
 
-➡️ [more videos...](https://youtube.com/codestackr)
+➡️ [more videos...](https://youtube.com/rhuwellsamano)
 
 ---
 
@@ -66,7 +66,7 @@
 - [How To Build Your Personal Brand As A Software Engineer & Get Hired ASAP](https://medium.com/@rhuwell/how-to-build-your-personal-brand-as-a-software-engineer-get-hired-asap-147e1e949088?source=rss-28cd14eaf3e6------2)
 <!-- BLOG-POST-LIST:END -->
 
-➡️ [more blog posts...](https://codestackr.com)
+➡️ [more blog posts...](https://medium.com/@rhuwell)
 
 ---
 
