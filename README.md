@@ -1,9 +1,9 @@
-### Hi there, I'm Jesse - aka [codeSTACKr][website] 👋
+### Hey there, I'm Rhuwell (but call me Rhu) [codeSTACKr][website] 👋
 
-## I'm a Husband, Father, Developer, and Teacher!
+## I'm a Full Stack Software Engineer & UX/UI Designer.
 
 - 🔭 I’m currently working on a [VS Code Course][website]!
-- 🌱 I’m currently learning everything 🤣
+- 🌱 I’m currently learning Data Visualization with React + D3 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to draw and play guitar / drums
