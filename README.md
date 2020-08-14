@@ -59,6 +59,11 @@
 ### 📕 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
+- [My Q2 Review: 2020 Lockdown Edition](https://medium.com/dev-genius/my-q2-review-2020-lockdown-edition-b72c868ae571?source=rss-28cd14eaf3e6------2)
+- [Wanna know everything I’m working on? Brace yourself.](https://medium.com/@rhuwell/wanna-know-everything-im-working-on-brace-yourself-4317f9c1a367?source=rss-28cd14eaf3e6------2)
+- [Captain’s Dev Log #2 (Burnout Crisis Averted)](https://medium.com/@rhuwell/captains-dev-log-2-burnout-crisis-averted-fd7de0473262?source=rss-28cd14eaf3e6------2)
+- [Captain’s Dev Log #1 (Chronicles of Coding)](https://medium.com/@rhuwell/captains-dev-log-1-chronicles-of-coding-3d6838209c9?source=rss-28cd14eaf3e6------2)
+- [How To Build Your Personal Brand As A Software Engineer & Get Hired ASAP](https://medium.com/@rhuwell/how-to-build-your-personal-brand-as-a-software-engineer-get-hired-asap-147e1e949088?source=rss-28cd14eaf3e6------2)
 <!-- BLOG-POST-LIST:END -->
 
 ➡️ [more blog posts...](https://codestackr.com)
