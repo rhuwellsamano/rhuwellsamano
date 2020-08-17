@@ -71,19 +71,6 @@
 ---
 
 <details>
-  <summary>:zap: Recent Github Activity</summary>
-  
-<!--START_SECTION:activity-->
-1. undefined
-2. undefined
-3. undefined
-4. undefined
-5. undefined
-<!--END_SECTION:activity-->
-
-</details>
-
-<details>
   <summary>:zap: Github Stats</summary>
 
   <img align="left" alt="Rhu's Github Stats" src="https://github-readme-stats.rhuwellsamano.vercel.app/api?username=rhuwellsamano&show_icons=true&hide_border=true" />
