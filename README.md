@@ -74,11 +74,11 @@
   <summary>:zap: Recent Github Activity</summary>
   
 <!--START_SECTION:activity-->
-- [SPEED RUN: Build a CRUD API with PrestoAPI & MongoDB Atlas in 9 Minutes! Then Airbnb Clone!](https://www.youtube.com/watch?v=6C45qCt41VY)
-- [Building BATTLESHIPS Multiplayer Game with Node.js, Express, Socket.io, Heroku | (2/3)](https://www.youtube.com/watch?v=TpAwggQJPUQ)
-- [GSAP Typing Animation | Tween & Timeline Basics (2020)](https://www.youtube.com/watch?v=ZT66N5hBiCE)
-- [Next Level GitHub Profile README (NEW) | How To Create An Amazing Profile ReadMe With GitHub Actions](https://www.youtube.com/watch?v=ECuqb5Tv9qI)
-- [There's more to CONSOLE than .log( ) | Things you didn't know console could do!!](https://www.youtube.com/watch?v=_-bHhEGcDiQ)
+1. undefined
+2. undefined
+3. undefined
+4. undefined
+5. undefined
 <!--END_SECTION:activity-->
 
 </details>
