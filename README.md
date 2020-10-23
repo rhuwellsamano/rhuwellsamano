@@ -2,7 +2,7 @@
 
 ## I'm a Full Stack Software Engineer
 
-- 🔭 I’m currently working on Version 3 of my Portfolio (adding in Sanity) 😤
+- 🔭 I’m currently working on Version 3 of my Portfolio by adding Sanity && building Netflix 😤
 - 🌱 I’m currently reviewing Algorithms with AlgoExpert and Interview Cake
 - 🛠 I’m looking to learn more about UX/UI Design and Product Management (..and more 😅)
 - 🥅 Career Goal: Find a great dev team to work with in a company I can grow in!
