@@ -1,6 +1,6 @@
 ### Hey there, I'm Rhu! 👋
 
-## I'm a Full Stack Software Engineer
+## I'm a Full Stack Software Engineer & UX/UI Designer
 
 - 🔭 I'm passionate about tech, health, and digital media/marketing 👾
 - 🌱 I’m currently preparing to launch Knave Media, a Full-Service Digital Media Agency 🚀
