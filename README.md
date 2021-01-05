@@ -62,6 +62,6 @@
 
 </details>
 
-[website]: http://medium.com/@rhuwell
+[website]: https://medium.com/@rhuwell
 [twitter]: https://twitter.com/rhuwell
 [linkedin]: https://linkedin.com/in/rhuwellsamano
