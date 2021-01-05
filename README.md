@@ -2,11 +2,11 @@
 
 ## I'm a Full Stack Software Engineer
 
-- 🔭 I’m currently working on Version 3 of my Portfolio by adding Sanity && building Netflix 😤
-- 🌱 I’m currently reviewing Algorithms with AlgoExpert and Interview Cake
+- 🔭 I'm passionate about tech, health, and digital media/marketing 👾
+- 🌱 I’m currently preparing to launch Knave Media, a Full-Service Digital Media Agency 🚀
 - 🛠 I’m looking to learn more about UX/UI Design and Product Management (..and more 😅)
-- 🥅 Career Goal: Find a great dev team to work with in a company I can grow in!
-- ⚡ Looking to chat? Shoot me an e-mail!
+- 🥅 Career Goal: Find a great dev team to work with in a company I can help grow!
+- ⚡ Looking to chat? Shoot me an e-mail.
 
 ### Connect with me:
 
@@ -62,8 +62,6 @@
 
 </details>
 
-[website]: http://rhuwellsamano.com/
+[website]: http://medium.com/@rhuwell
 [twitter]: https://twitter.com/rhuwell
-[youtube]: https://youtube.com/rhuwellsamano
-[instagram]: https://instagram.com/rhuwell
 [linkedin]: https://linkedin.com/in/rhuwellsamano
