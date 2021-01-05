@@ -5,7 +5,8 @@
 - 🔭 I'm passionate about tech, design, health, and digital media/marketing 👾
 - 🌱 I’m currently preparing to launch Knave Media, a Full-Service Digital Media Agency 🚀
 - 🛠 I’m looking to learn more about UX/UI Design and Product Management (..and more 😅)
-- 🥅 Career Goal: Find a great dev team to work with in a company I can help grow!
+
+## 🥅 Career Goal: Find a great dev team to work with in a company I can help grow!
 - ⚡ Looking to chat? Shoot me an e-mail.
 
 ### Connect with me:
