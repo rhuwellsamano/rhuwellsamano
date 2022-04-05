@@ -5157,7 +5157,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/rhuwellsamano/PERSONAL_PROJECTS/rhuwellsamano/rhuwellsamano/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\rhuwe\\Desktop\\Coding Projects\\rhuwellsamano\\.next");
       return error;
     }
   };
