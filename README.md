@@ -3,7 +3,7 @@
 ## I'm a Full Stack Software Engineer & UX/UI Designer
 
 - 🔭 I'm passionate about tech, design, and digital media/marketing 👾
-- 🌱 I’m currently working on launching Knave Media, a Full-Service Digital Media Agency 🚀
+- 🌱 🚀
 - 🛠 I’m looking to learn more about UX/UI Design and Product Management (..and more 😅)
 
 ## 🥅 Career Goal: Find a great dev team to work with in a company I can help grow!
