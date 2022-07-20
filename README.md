@@ -2,8 +2,8 @@
 
 ## I'm a Full Stack Software Engineer & UX/UI Designer
 
-- 🔭 I'm passionate about tech, design, and digital media/marketing 👾
-- 🌱 🚀
+- 🔭 I'm passionate about product design, full-stack development, branding, marketing, and growth hacking/engineering. 👾
+- 🌱 Founder of KATANA4 Creative Agency 🚀
 - 🛠 I’m looking to learn more about UX/UI Design and Product Management (..and more 😅)
 
 ## 🥅 Career Goal: Find a great dev team to work with in a company I can help grow!
